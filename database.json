@@ -1,0 +1,27 @@
+{
+  "120363423199085323@g.us": {
+    "nama": "Penggusuran E2",
+    "tugas": [],
+    "jadwal": []
+  },
+  "120363401837470917@g.us": {
+    "nama": "ARC 6 | POMMAT (plenger semua)",
+    "tugas": [
+      {
+        "matkul": "KONDANGAN C DAN S",
+        "detail": "WAJIB PAKAI BAJU COSPLAY UNTUK ANAK POMMAT",
+        "tempat": "E2",
+        "format": "OFFLINE",
+        "deadline": "2026-01-09 10:00"
+      },
+      {
+        "matkul": "KONDANGAN A DAN P",
+        "detail": "WAJIB PAKAI BAJU \"A&P FOREVER\" UNTUK ANAK POMMAT",
+        "tempat": "PAKUWON MALL",
+        "format": "OFFLINE",
+        "deadline": "2026-01-09 18:30"
+      }
+    ],
+    "jadwal": []
+  }
+}
