@@ -10,7 +10,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.13.2",
+    "chrono-node": "^2.9.0",
     "node-cron": "^4.2.1",
+    "node-nlp": "^5.0.0-alpha.5",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.34.4"
   }

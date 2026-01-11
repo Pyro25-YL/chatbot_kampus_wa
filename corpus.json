@@ -1,0 +1,126 @@
+{
+  "name": "KampusBotCorpus",
+  "locale": "id-ID",
+  "data": [
+    {
+      "intent": "tugas.tambah",
+      "utterances": [
+        "tambah tugas", "tambahin tugas dong", "ada pr baru nih", "catet tugas",
+        "bot tolong simpen tugas", "min ada deadline baru", "masukin list tugas",
+        "ingetin gw ada tugas", "jangan lupa catet pr", "add tugas", "input tugas",
+        "woy bot catet tugas", "titip tugas min", "bot pr baru", "ada tagihan tugas",
+        "tugas baru matkul", "tambah deadline", "bikin reminder tugas", "save tugas ini",
+        "min tulung catet", "ada peer", "bot catetin dong", "list baru",
+        "masukkan ke daftar tugas", "tambahin pr"
+      ]
+    },
+    {
+      "intent": "tugas.lihat",
+      "utterances": [
+        "lihat tugas", "cek tugas", "ada tugas apa aja", "list pr", "daftar tugas",
+        "tugas hari ini", "pr hari ini", "deadline besok", "tugas minggu ini",
+        "cek deadline", "info tugas", "tagihan tugas", "mana tugas gw", "spill tugas",
+        "tugas yang belum kelar", "jadwal tugas", "ada deadline ga", "cek pr", "liat list",
+        "tugas gw apa", "pr gw mana", "list deadline", "ada tanggungan ga",
+        "min tugas apa aja", "bot cek list", "tampilkan tugas", "show tugas"
+      ]
+    },
+    {
+      "intent": "tugas.hapus",
+      "utterances": [
+        "hapus tugas", "tugas sudah selesai", "tandai selesai", "kelar tugas",
+        "hapus list", "buang tugas", "delete tugas", "tugas beres", "pr udah dikerjain",
+        "hapus yang tadi", "bersihin tugas", "remove tugas", "hapus pr", "tandai beres",
+        "udah kelar min", "hapusin dong", "hilangkan dari list", "drop tugas"
+      ]
+    },
+    {
+      "intent": "jadwal.lihat",
+      "utterances": [
+        "jadwal kuliah", "jadwal besok", "matkul hari ini", "kuliah jam berapa",
+        "besok masuk jam berapa", "hari ini ada matkul apa", "cek jadwal",
+        "info kuliah", "jadwal dosen", "pelajaran hari ini", "jadwal ngampus",
+        "min jadwal", "bot jadwal besok", "ada kelas ga hari ini"
+      ]
+    },
+    {
+      "intent": "sapaan.halo",
+      "utterances": [
+        "halo bot", "hai min", "pagi", "siang", "sore", "malam", "assalamualaikum",
+        "woy", "p", "bot", "min", "halo", "hi", "tes", "test", "ping", "permisi",
+        "samlekom", "yuhuu", "hadir"
+      ]
+    },
+    {
+      "intent": "sapaan.trims",
+      "utterances": [
+        "makasih", "thanks", "terima kasih", "tengkyu", "matur nuwun", "mantap",
+        "oke sip", "nice", "good job", "arigato", "keren min", "oke bot", "yoi",
+        "siap makasih"
+      ]
+    },
+    {
+      "intent": "emosi.marah",
+      "utterances": [
+        "bego lu", "goblok", "bodoh", "payah", "anjing", "bangsat", "tolol",
+        "gak guna", "bot jelek", "lemot lu", "stres", "bego", "kampret", "sialan"
+      ]
+    },
+    {
+      "intent": "bot.creator",
+      "utterances": [
+        "siapa yang buat lu", "siapa creatornya", "pembuat bot ini siapa",
+        "lu punya siapa", "adminnya siapa", "siapa bos lu", "yang coding siapa"
+      ]
+    },
+    {
+      "intent": "obrolan.kabar",
+      "utterances": [
+        "apa kabar", "gimana kabarmu", "sehat min", "lagi sehat", "piye kabare",
+        "apa kabs", "how are you", "sehat ga", "bot sehat", "kabar gimana"
+      ]
+    },
+    {
+      "intent": "obrolan.identitas",
+      "utterances": [
+        "lu siapa", "kamu robot ya", "kenalan dong", "nama kamu siapa",
+        "bot apaan nih", "aslinya manusia ya", "kenalan", "nama lo sapa", "intro dong"
+      ]
+    },
+    {
+      "intent": "obrolan.aktivitas",
+      "utterances": [
+        "lagi ngapain", "sibuk ga", "lagi apa min", "ngopi gih", "gabut ya",
+        "kerja mulu", "lagi sibuk apa", "malem minggu ngapain"
+      ]
+    },
+    {
+      "intent": "obrolan.cinta",
+      "utterances": [
+        "punya pacar ga", "jomblo ya", "mau jadi pacar gw ga", "i love you",
+        "bot ganteng", "bot cantik", "nikah yuk", "sayang bot", "kangen"
+      ]
+    },
+    {
+      "intent": "obrolan.lucu",
+      "utterances": [
+        "cerita lucu dong", "hibur gw", "ngelawak dong", "joke receh", "pantun dong",
+        "bikin ketawa", "gw lagi sedih nih hibur", "stand up dong"
+      ]
+    },
+    {
+      "intent": "obrolan.pamit",
+      "utterances": [
+        "dah", "bye", "pamit dulu", "tidur dulu", "sampai jumpa", "cabut dulu",
+        "off dulu min", "dadah", "good night", "met bobo", "see you"
+      ]
+    },
+    {
+      "intent": "bot.bantu",
+      "utterances": [
+        "bisa apa aja", "help", "tolong", "menu", "fitur lu apa aja",
+        "gimana cara pakenya", "bingung nih", "panduan", "command list", "bantuan"
+      ]
+    }
+  ]
+}

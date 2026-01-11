@@ -1,25 +1,87 @@
 {
   "120363423199085323@g.us": {
     "nama": "Penggusuran E2",
-    "tugas": [],
-    "jadwal": []
+    "tugas": [
+      {
+        "matkul": "Kondangan D Dan A",
+        "detail": "Anak Penggusuran E2 Harus Gahar",
+        "tempat": "Istana Presiden As",
+        "format": "Rapi Dan Gahar",
+        "deadline": "2026-01-11 12:00"
+      },
+      {
+        "matkul": "_  Makalah Hari Senin Di",
+        "detail": "Via Chat",
+        "tempat": "-",
+        "format": "Rapi",
+        "deadline": "2026-01-12 23:59"
+      }
+    ],
+    "jadwal": [
+      {
+        "matkul": "Uuaa",
+        "dosen": "Pak Bahlel",
+        "hari": "Kamis",
+        "jam": "23.00"
+      },
+      {
+        "matkul": "Uuaa Dosen Pak Bahlel Hari Kamis Jam 23.00",
+        "dosen": "Pak Bahlel Hari Kamis Jam 23.00",
+        "hari": "Kamis Jam 23.00",
+        "jam": "23.00"
+      }
+    ]
   },
   "120363401837470917@g.us": {
     "nama": "ARC 6 | POMMAT (plenger semua)",
     "tugas": [
       {
-        "matkul": "KONDANGAN C DAN S",
-        "detail": "WAJIB PAKAI BAJU COSPLAY UNTUK ANAK POMMAT",
-        "tempat": "E2",
-        "format": "OFFLINE",
-        "deadline": "2026-01-09 10:00"
+        "matkul": "Kondangan D Dan A,",
+        "detail": "Anak Pommat Harus Gahar,",
+        "tempat": "-",
+        "format": "-",
+        "deadline": "2026-01-11 12:00"
+      }
+    ],
+    "jadwal": []
+  },
+  "120363335580276663@g.us": {
+    "nama": "monyet pencari pisang",
+    "tugas": [
+      {
+        "matkul": "Rizq Nikah Sama Rasya   .",
+        "detail": "Via Chat",
+        "deadline": "2026-01-11 12:00"
       },
       {
-        "matkul": "KONDANGAN A DAN P",
-        "detail": "WAJIB PAKAI BAJU \"A&P FOREVER\" UNTUK ANAK POMMAT",
-        "tempat": "PAKUWON MALL",
-        "format": "OFFLINE",
-        "deadline": "2026-01-09 18:30"
+        "matkul": "Makan Pentol Nona Kemarin  .",
+        "detail": "Via Chat",
+        "deadline": "2026-01-10 17:53"
+      },
+      {
+        "matkul": "Makan Pentol Nona   .",
+        "detail": "Via Chat",
+        "deadline": "2026-01-11 17:53"
+      }
+    ],
+    "jadwal": [
+      {
+        "matkul": "Pernikahan Rizq Dan Rasya",
+        "dosen": "Pak Bahlul",
+        "hari": "Selasa",
+        "jam": "08.00"
+      }
+    ]
+  },
+  "6282258756166@c.us": {
+    "nama": "Yoga",
+    "tugas": [
+      {
+        "matkul": "📋 *Daftar Tugas",
+        "detail": "Via Chat",
+        "tempat": "-",
+        "format": "Rapi",
+        "deadline": "Sabtu, 10 Januari pukul 20.00"
       }
     ],
     "jadwal": []
