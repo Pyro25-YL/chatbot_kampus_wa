@@ -1,0 +1,207 @@
+{
+  "jalur_belajar": [
+    {
+      "level": "pemula",
+      "label": "Pemula",
+      "deskripsi": "Jalur untuk mahasiswa yang baru pertama kali mendengar istilah seperti feodalisme digital, kapitalisme pengawasan, dan pengawasan algoritmik. Fokus pada pemahaman dasar dan contoh sehari-hari di kampus.",
+      "modul": [
+        {
+          "id": "M1",
+          "judul": "Mengenali Ruang Digital di Kampus",
+          "fokus": "Mengidentifikasi aplikasi dan platform yang paling sering digunakan mahasiswa di kampus.",
+          "tujuan": "Mahasiswa mampu menyebutkan dan memetakan platform digital utama yang memengaruhi kehidupan kuliahnya.",
+          "konsep_kunci": ["ruang_digital", "platform_kampus"],
+          "pertanyaan_refleksi": [
+            "Aplikasi atau platform apa saja yang wajib kamu pakai untuk urusan kuliah?",
+            "Bagian mana dari aktivitas kuliahmu yang saat ini hampir tidak bisa lepas dari internet?"
+          ],
+          "contoh_kasus": "Seorang mahasiswa baru menyadari bahwa hampir semua aktivitas kuliahnya (absensi, tugas, nilai, pengumuman) bergantung pada satu portal kampus dan satu grup WhatsApp. Ia mulai bertanya: kalau sistem ini bermasalah, apa yang terjadi dengan kuliahnya?",
+          "saran_aktivitas": "Cobalah buat daftar semua aplikasi dan website yang kamu pakai untuk kuliah dalam seminggu. Kelompokkan: mana yang resmi dari kampus, mana yang inisiatif dosen, mana yang inisiatif mahasiswa."
+        },
+        {
+          "id": "M2",
+          "judul": "Feodalisme Digital: Dari Teori ke Keseharian",
+          "fokus": "Memahami apa itu feodalisme digital melalui contoh sederhana di kampus.",
+          "tujuan": "Mahasiswa memahami gambaran umum feodalisme digital dan bisa menyebutkan minimal satu contoh situasi yang mendekati.",
+          "konsep_kunci": ["feodalisme_digital", "ketergantungan_platform"],
+          "pertanyaan_refleksi": [
+            "Pernahkah kamu merasa \"ya mau nggak mau harus ikut\" aturan platform tertentu di kampus?",
+            "Kalau kamu tidak mengikuti aturan platform itu, apa konsekuensinya?"
+          ],
+          "contoh_kasus": "Kampus mewajibkan semua pengumpulan tugas lewat satu LMS. Mahasiswa yang kesulitan akses internet atau tidak terbiasa dengan antarmuka LMS tersebut sering terlambat mengumpulkan tugas dan dianggap kurang disiplin.",
+          "saran_aktivitas": "Ceritakan satu pengalaman ketika kamu merasa tidak punya banyak pilihan selain mengikuti aturan platform kampus, meskipun kamu merasa tidak nyaman."
+        },
+        {
+          "id": "M3",
+          "judul": "Jejak Data dan Privasi Mahasiswa",
+          "fokus": "Mengenali jenis-jenis data yang dikumpulkan dari aktivitas digital mahasiswa.",
+          "tujuan": "Mahasiswa dapat menyebutkan jenis data apa saja yang kemungkinan besar terekam ketika mereka menggunakan sistem kampus.",
+          "konsep_kunci": ["data_pribadi", "jejak_digital", "privasi"],
+          "pertanyaan_refleksi": [
+            "Ketika kamu login ke portal kampus, kira-kira data apa saja yang terekam?",
+            "Pernahkah kamu membaca (walau sekilas) kebijakan privasi dari sistem yang kamu gunakan?"
+          ],
+          "contoh_kasus": "Seorang mahasiswa terkejut ketika mengetahui bahwa riwayat akses materi di LMS digunakan dosen untuk menilai \"partisipasi\" tanpa pernah dijelaskan sebelumnya.",
+          "saran_aktivitas": "Ambil satu platform kampus yang sering kamu pakai. Coba cari halaman \"kebijakan privasi\" atau \"terms of service\" dan baca minimal satu paragraf. Apa isi utamanya?"
+        },
+        {
+          "id": "M4",
+          "judul": "Pengawasan Algoritmik Ringan di Kampus",
+          "fokus": "Memahami bahwa pengawasan di kampus tidak selalu dilakukan oleh manusia, tetapi juga oleh sistem otomatis.",
+          "tujuan": "Mahasiswa dapat memberi contoh bentuk pengawasan algoritmik yang ringan di kampus, seperti pelacakan login atau durasi akses materi.",
+          "konsep_kunci": ["pengawasan_algoritmik", "tracking"],
+          "pertanyaan_refleksi": [
+            "Pernahkah kamu merasa perilaku onlinemu di kampus dinilai berdasarkan angka-angka (misalnya jumlah klik atau durasi akses)?",
+            "Kalau sistem salah menilai perilakumu, adakah cara untuk membantah?"
+          ],
+          "contoh_kasus": "Portal kampus memberi label \"pasif\" pada mahasiswa yang jarang membuka forum diskusi, padahal ia aktif belajar dari materi PDF yang diunduh.",
+          "saran_aktivitas": "Coba ingat satu sistem kampus yang memberi skor atau status otomatis. Menurutmu, apa kelebihannya dan apa yang terasa tidak adil?"
+        },
+        {
+          "id": "M5",
+          "judul": "AI sebagai Alat Bantu Belajar",
+          "fokus": "Menggambarkan posisi alat seperti ChatGPT sebagai pendamping belajar, bukan pengganti proses berpikir.",
+          "tujuan": "Mahasiswa memahami perbedaan antara memakai AI untuk membantu dan menyerahkan seluruh tugas pada AI.",
+          "konsep_kunci": ["etika_ai_pendidikan", "alat_bantu_belajar"],
+          "pertanyaan_refleksi": [
+            "Untuk aktivitas apa saja kamu pernah atau ingin menggunakan ChatGPT/alat AI lain?",
+            "Di titik mana menurutmu penggunaan AI mulai terasa \"tidak jujur\" atau merugikan proses belajarmu?"
+          ],
+          "contoh_kasus": "Mahasiswa memakai ChatGPT untuk merapikan bahasa esai yang ia tulis sendiri, tetapi temannya menyalin penuh teks dari AI tanpa membaca. Keduanya sama-sama mengumpulkan tugas dengan nama sendiri.",
+          "saran_aktivitas": "Tuliskan satu skenario penggunaan AI yang menurutmu masih etis, dan satu skenario yang menurutmu sudah bermasalah. Apa bedanya?"
+        }
+      ]
+    },
+    {
+      "level": "menengah",
+      "label": "Menengah",
+      "deskripsi": "Jalur untuk mahasiswa yang sudah pernah mendengar konsep feodalisme digital dan kapitalisme pengawasan, dan mulai tertarik mengaitkannya dengan kebijakan kampus.",
+      "modul": [
+        {
+          "id": "M6",
+          "judul": "Platformisasi Kampus dan Kapitalisme Pengawasan",
+          "fokus": "Mengkaji bagaimana kampus bergantung pada platform komersial dan implikasinya bagi data mahasiswa.",
+          "tujuan": "Mahasiswa dapat menjelaskan hubungan antara kerjasama kampus-vendor platform dengan risiko kapitalisme pengawasan.",
+          "konsep_kunci": ["kapitalisme_digital", "kapitalisme_pengawasan", "platformisasi"],
+          "pertanyaan_refleksi": [
+            "Apakah kampusmu bekerja sama dengan platform/ vendor komersial tertentu untuk urusan akademik?",
+            "Siapa saja yang kemungkinan diuntungkan dari kerja sama tersebut?"
+          ],
+          "contoh_kasus": "Kampus menggunakan layanan cloud dan analitik belajar dari perusahaan teknologi besar. Data aktivitas mahasiswa dianalisis untuk membuat dashboard \"kinerja\" yang hanya bisa diakses pimpinan kampus.",
+          "saran_aktivitas": "Coba cari tahu (dari website kampus, brosur, atau obrolan dengan dosen) apakah ada kerjasama resmi kampus dengan platform teknologi tertentu. Informasi apa saja yang terbuka untuk publik?"
+        },
+        {
+          "id": "M7",
+          "judul": "Proctoring, Biometrik, dan Keadilan Ujian",
+          "fokus": "Mengkritisi penggunaan proctoring dan pemindai wajah dalam ujian online.",
+          "tujuan": "Mahasiswa mampu menyebutkan minimal dua risiko etis dari penggunaan proctoring dan absensi biometrik.",
+          "konsep_kunci": ["pengawasan_algoritmik", "biometrik", "keadilan_ujian"],
+          "pertanyaan_refleksi": [
+            "Bagian mana dari pengalaman ujian online dengan kamera yang paling membuatmu tidak nyaman?",
+            "Menurutmu, siapa yang paling dirugikan jika sistem proctoring keliru menilai perilaku mahasiswa?"
+          ],
+          "contoh_kasus": "Seorang mahasiswa mendapat peringatan \"gerakan mencurigakan\" dari software proctoring karena sering menunduk ke bawah. Ternyata ia memiliki kebiasaan membaca sambil menulis catatan di kertas yang diizinkan.",
+          "saran_aktivitas": "Bayangkan kamu diminta menjelaskan kekhawatiranmu tentang proctoring kepada dosen yang belum terlalu peka soal privasi. Kalimat sederhana apa yang akan kamu pakai?"
+        },
+        {
+          "id": "M8",
+          "judul": "Hak Digital Mahasiswa dan Kebijakan Kampus",
+          "fokus": "Membaca kebijakan kampus dari kacamata hak digital mahasiswa.",
+          "tujuan": "Mahasiswa dapat mengidentifikasi apakah kebijakan digital kampus sudah menjamin transparansi dan akuntabilitas pengelolaan data.",
+          "konsep_kunci": ["hak_digital_mahasiswa", "kebijakan_kampus", "transparansi"],
+          "pertanyaan_refleksi": [
+            "Pernahkah kamu melihat dokumen resmi kampus yang membahas privasi dan data mahasiswa?",
+            "Jika belum pernah, menurutmu mengapa dokumen seperti itu jarang dibicarakan?"
+          ],
+          "contoh_kasus": "Kampus membuat aturan baru tentang penggunaan aplikasi absensi berbasis lokasi, tetapi penjelasan tentang pengelolaan data lokasi hanya muncul dalam dokumen panjang berbahasa hukum yang jarang dibaca mahasiswa.",
+          "saran_aktivitas": "Coba tanyakan secara sopan kepada satu dosen atau staf akademik: apakah kampus memiliki kebijakan tertulis soal data dan privasi mahasiswa? Catat jawaban dan kesanmu."
+        },
+        {
+          "id": "M9",
+          "judul": "AI, Plagiarisme, dan Desain Tugas",
+          "fokus": "Mendiskusikan hubungan antara penggunaan AI, tuduhan plagiarisme, dan rancangan tugas yang kurang mendukung proses berpikir.",
+          "tujuan": "Mahasiswa mampu membedakan antara plagiarisme tradisional dan tantangan baru di era GenAI.",
+          "konsep_kunci": ["etika_ai_pendidikan", "plagiarisme", "desain_tugas"],
+          "pertanyaan_refleksi": [
+            "Menurutmu, tugas seperti apa yang paling menggoda untuk dikerjakan penuh oleh AI?",
+            "Pernahkah kamu atau temanmu khawatir dituduh memakai AI meskipun merasa mengerjakan sendiri?"
+          ],
+          "contoh_kasus": "Dosen menggunakan alat deteksi AI untuk memeriksa esai. Beberapa mahasiswa yang menulis dengan gaya rapi ditandai 'tinggi kemungkinan AI', sementara mereka mengerjakan tugas secara mandiri.",
+          "saran_aktivitas": "Identifikasi satu tugas di kampusmu yang menurutmu bisa didesain ulang agar lebih menilai proses, bukan hanya produk akhir. Ide perubahan apa yang terlintas?"
+        },
+        {
+          "id": "M10",
+          "judul": "Strategi Kolektif Menghadapi Feodalisme Digital di Kampus",
+          "fokus": "Mendorong mahasiswa memikirkan strategi kolektif, bukan hanya bertahan secara individual.",
+          "tujuan": "Mahasiswa mampu menyebutkan minimal satu bentuk respon kolektif yang memungkinkan di kampus mereka.",
+          "konsep_kunci": ["kolektivitas_mahasiswa", "advokasi", "literasi_kritis"],
+          "pertanyaan_refleksi": [
+            "Selama ini, ketika kamu tidak nyaman dengan kebijakan digital kampus, apa yang kamu lakukan?",
+            "Siapa saja aktor di kampus yang potensial diajak berkoalisi untuk membahas isu ini?"
+          ],
+          "contoh_kasus": "Sekelompok mahasiswa menginisiasi diskusi informal tentang pengalaman mereka dengan proctoring dan platform kampus, kemudian menyusun catatan bersama untuk dibawa ke BEM atau senat mahasiswa.",
+          "saran_aktivitas": "Bayangkan kamu akan mengadakan diskusi kecil dengan 3-5 teman tentang feodalisme digital di kampusmu. Topik awal apa yang kira-kira paling mudah untuk memulai obrolan?"
+        }
+      ]
+    },
+    {
+      "level": "lanjut",
+      "label": "Lanjut",
+      "deskripsi": "Jalur untuk mahasiswa yang sudah cukup familiar dengan teori kritis tentang teknologi dan ingin menghubungkannya dengan praktik di kampus serta kemungkinan advokasi.",
+      "modul": [
+        {
+          "id": "M11",
+          "judul": "Techno-feudalisme, Kapitalisme Digital, dan Kampus",
+          "fokus": "Menghubungkan teori techno-feudalisme dan kapitalisme pengawasan dengan peran kampus dalam ekosistem digital.",
+          "tujuan": "Mahasiswa mampu merumuskan argumen dasar tentang posisi kampus sebagai bagian dari struktur techno-feodal.",
+          "konsep_kunci": ["techno_feudalisme", "kapitalisme_digital", "institusi_pendidikan"],
+          "pertanyaan_refleksi": [
+            "Jika kampus dianggap sebagai 'pengelola lahan digital', siapa yang menjadi 'tuan tanah' sesungguhnya dalam ekosistem platform yang digunakan?",
+            "Bagaimana hubungan antara kebutuhan administrasi pendidikan dan kepentingan bisnis platform teknologi?"
+          ],
+          "contoh_kasus": "Universitas menandatangani kontrak jangka panjang dengan platform EdTech global. Sebagai imbalan, platform tersebut mendapat hak untuk menggunakan data anonim mahasiswa untuk pengembangan produk dan riset internal.",
+          "saran_aktivitas": "Coba tuliskan dalam beberapa kalimat bagaimana kamu akan menjelaskan konsep techno-feudalisme kepada teman sekelas dengan contoh dari kampusmu sendiri."
+        },
+        {
+          "id": "M12",
+          "judul": "Merancang Penilaian di Era GenAI",
+          "fokus": "Mengeksplorasi desain penilaian yang mengintegrasikan keberadaan GenAI tanpa kehilangan dimensi emansipatoris.",
+          "tujuan": "Mahasiswa mampu mengusulkan bentuk tugas yang memanfaatkan GenAI sekaligus menguatkan refleksi kritis mahasiswa.",
+          "konsep_kunci": ["GenAI", "desain_penilaian", "pedagogi_kritis"],
+          "pertanyaan_refleksi": [
+            "Jika kamu menjadi dosen, tugas seperti apa yang akan kamu berikan di era GenAI?",
+            "Bagaimana caranya agar penggunaan AI dalam tugas justru mendorong mahasiswa lebih banyak berpikir, bukan sebaliknya?"
+          ],
+          "contoh_kasus": "Dalam sebuah mata kuliah, dosen meminta mahasiswa menggunakan ChatGPT untuk membuat draft argumen, kemudian menulis esai reflektif yang mengkritisi kelemahan dan bias dari argumen yang dihasilkan AI.",
+          "saran_aktivitas": "Rancang secara singkat satu contoh tugas kuliah yang: (1) eksplisit memperbolehkan penggunaan AI, (2) mengharuskan mahasiswa menilai dan mengkritik output AI."
+        },
+        {
+          "id": "M13",
+          "judul": "Penelitian Kecil: Memetakan Kebijakan Digital Kampus",
+          "fokus": "Mendorong mahasiswa melakukan pemetaan awal terhadap kebijakan digital di kampus mereka.",
+          "tujuan": "Mahasiswa mampu menyusun gambaran awal \"ekosistem kebijakan digital\" di kampus berdasarkan sumber-sumber yang tersedia.",
+          "konsep_kunci": ["pemetaan_kebijakan", "riset_kecil", "dokumen_resmi"],
+          "pertanyaan_refleksi": [
+            "Dokumen apa saja yang perlu kamu cari untuk memahami kebijakan digital kampusmu?",
+            "Hambatan apa yang kira-kira muncul ketika mahasiswa ingin mengakses informasi tersebut?"
+          ],
+          "contoh_kasus": "Sekelompok mahasiswa mencoba mencari semua aturan tertulis tentang penggunaan LMS, proctoring, dan data mahasiswa. Mereka menemukan bahwa sebagian aturan tersebar dalam berbagai surat edaran dan panduan teknis yang tidak mudah diakses.",
+          "saran_aktivitas": "Mulailah dengan membuat daftar pertanyaan riset sederhana, misalnya: 'data apa saja yang dikumpulkan?', 'disimpan di mana?', 'siapa yang bertanggung jawab?'. Jadikan daftar ini sebagai panduan wawancara ringan atau pencarian dokumen."
+        },
+        {
+          "id": "M14",
+          "judul": "Dari Refleksi ke Advokasi",
+          "fokus": "Menghubungkan pemahaman teori dan pengalaman pribadi menjadi gagasan advokasi yang realistis di kampus.",
+          "tujuan": "Mahasiswa mampu merumuskan ide awal bentuk intervensi atau advokasi yang mungkin dilakukan di lingkungan kampusnya.",
+          "konsep_kunci": ["advokasi", "kolektivitas_mahasiswa", "strategi_perubahan"],
+          "pertanyaan_refleksi": [
+            "Jika kamu bisa mengubah satu praktik digital di kampusmu, apa yang paling ingin kamu ubah dan mengapa?",
+            "Siapa saja sekutu potensial yang bisa mendukung perubahan tersebut (dosen, organisasi mahasiswa, lembaga riset, dll.)?"
+          ],
+          "contoh_kasus": "Mahasiswa menyusun memo kebijakan singkat yang berisi usulan transparansi pengelolaan data proctoring dan meminta adanya mekanisme banding bagi mahasiswa yang merasa dirugikan oleh sistem.",
+          "saran_aktivitas": "Tuliskan satu ide advokasi kecil (bisa berupa diskusi publik, poster edukasi, surat terbuka, atau riset bersama) yang menurutmu realistis dilakukan dalam konteks kampusmu."
+        }
+      ]
+    }
+  ]
+}

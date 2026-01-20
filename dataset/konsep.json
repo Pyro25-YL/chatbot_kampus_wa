@@ -1,0 +1,52 @@
+{
+  "konsep": [
+    {
+      "id": "feodalisme_digital",
+      "nama": "Feodalisme Digital",
+      "short_definition": "Metafora untuk menggambarkan ketimpangan kuasa di dunia digital ketika segelintir perusahaan teknologi bertindak seperti 'tuan tanah' yang menguasai infrastruktur dan menarik rente dari data, perhatian, dan kerja pengguna.",
+      "long_explanation": "Feodalisme digital dipakai untuk menjelaskan situasi ketika kehidupan digital kita sangat bergantung pada sedikit perusahaan teknologi besar. Mereka menguasai platform, server, toko aplikasi, dan ekosistem digital lain, sehingga pengguna dan bahkan institusi (termasuk kampus) berada dalam posisi seperti 'penyewa' yang harus mengikuti aturan, membayar biaya, dan menyerahkan data agar bisa terus memakai layanan. Istilah ini mengkritik bagaimana kekuasaan platform sangat besar: mereka mengontrol akses, mengumpulkan data, dan menentukan aturan main tanpa banyak ruang negosiasi dari pengguna.",
+      "campus_examples": "Kampus yang wajib memakai LMS, proctoring, atau platform cloud tertentu di mana syarat dan ketentuan ditentukan sepihak oleh vendor. Mahasiswa dan dosen menjadi sangat bergantung sehingga sulit pindah meski merasa tidak nyaman dengan kebijakan data atau biaya.",
+      "notes": "Bisa disandingkan dengan konsep kapitalisme digital/kapitalisme pengawasan; tekankan bahwa sebagian penulis melihat ini sebagai metafora, bukan sistem ekonomi baru."
+    },
+    {
+      "id": "kapitalisme_digital",
+      "nama": "Kapitalisme Digital / Kapitalisme Pengawasan",
+      "short_definition": "Bentuk kapitalisme yang menjadikan data dan pengalaman hidup manusia sebagai bahan baku gratis untuk dianalisis dan dimonetisasi, terutama melalui pemantauan dan prediksi perilaku.",
+      "long_explanation": "Kapitalisme digital, khususnya kapitalisme pengawasan, menjelaskan bagaimana perusahaan teknologi mengumpulkan jejak digital (klik, lokasi, waktu online, interaksi), mengolahnya menjadi data perilaku, lalu menjualnya sebagai prediksi atau alat pengaruh kepada pengiklan dan mitra lain. Pengguna bukan hanya konsumen, tetapi juga sumber bahan mentah berupa data. Model ini menimbulkan masalah privasi, manipulasi perilaku, dan ketimpangan kekuasaan antara perusahaan teknologi dan individu.",
+      "campus_examples": "Platform EdTech yang gratis digunakan mahasiswa, tetapi memasang tracker untuk memprofil perilaku belajar dan menghubungkannya dengan jaringan iklan; sistem analitik kampus yang memprofil 'mahasiswa berisiko' berdasarkan data tanpa keterbukaan prosedur.",
+      "notes": "Penting untuk menekankan bahwa model ini masih berada dalam logika kapitalisme, meskipun memakai retorika 'inovasi' dan 'gratis'."
+    },
+    {
+      "id": "pengawasan_algoritmik",
+      "nama": "Pengawasan Algoritmik",
+      "short_definition": "Pengawasan yang dilakukan melalui sistem teknologi yang menggunakan algoritme untuk mengumpulkan, menganalisis, dan menilai perilaku individu atau kelompok secara otomatis.",
+      "long_explanation": "Pengawasan algoritmik berarti proses pemantauan dan penilaian yang dijalankan oleh mesin: data aktivitas dikumpulkan (misalnya klik, gerakan, suara), lalu algoritme mengubahnya menjadi skor, prediksi, atau label tertentu. Contoh umum termasuk sistem rekomendasi, analitik prediktif, dan risk scoring. Keputusan awal sering diambil mesin, baru kemudian (kadang) dikaji manusia. Masalahnya, algoritme tidak netral; ia membawa asumsi dan bias pembuatnya, serta bisa mengukuhkan ketidakadilan yang sudah ada.",
+      "campus_examples": "AI proctoring yang menandai gerakan mata sebagai 'mencurigakan'; sistem LMS yang memberi label 'mahasiswa berisiko drop out' hanya berdasarkan data login dan pengumpulan tugas.",
+      "notes": "Tekankan perbedaan antara pengawasan manusia yang terlihat dan pengawasan algoritmik yang sering 'tak terlihat' tapi lebih intensif."
+    },
+    {
+      "id": "hak_digital_mahasiswa",
+      "nama": "Hak Digital Mahasiswa",
+      "short_definition": "Hak-hak mahasiswa di ruang digital kampus, termasuk hak atas akses yang setara, privasi dan perlindungan data, keamanan digital, kebebasan berekspresi, transparansi sistem, dan partisipasi dalam pengambilan keputusan terkait teknologi.",
+      "long_explanation": "Hak digital mahasiswa adalah penerapan hak asasi manusia ke konteks digital di kampus. Ini mencakup hak untuk tahu data apa yang dikumpulkan, untuk tujuan apa, oleh siapa, dan bagaimana bisa mengakses, memperbaiki, atau menghapus data tersebut. Juga termasuk hak atas lingkungan belajar digital yang aman dan bebas diskriminasi, hak untuk menyuarakan pendapat secara online, dan hak untuk dilibatkan dalam pembahasan kebijakan teknologi yang berdampak pada kehidupan akademik.",
+      "campus_examples": "Mahasiswa meminta penjelasan tentang kebijakan privasi LMS; keberatan terhadap penggunaan face recognition tanpa penjelasan jelas; keterlibatan BEM dalam merumuskan pedoman penggunaan AI di kelas.",
+      "notes": "Libatkan dimensi global (GDPR, deklarasi hak digital) dan konteks lokal (UU PDP, peraturan kampus)."
+    },
+    {
+      "id": "etika_ai_pendidikan",
+      "nama": "Etika Penggunaan AI di Pendidikan",
+      "short_definition": "Prinsip dan pedoman agar desain dan penggunaan sistem AI di pendidikan menghormati hak asasi, martabat, keadilan, transparansi, akuntabilitas, dan benar-benar mendukung proses belajar.",
+      "long_explanation": "Etika AI di pendidikan menuntut agar penggunaan AI tidak hanya dilihat dari sisi efisiensi atau inovasi, tetapi dari dampaknya terhadap manusia. Prinsip umum meliputi keadilan (tidak diskriminatif), akuntabilitas (ada pihak yang bertanggung jawab jika terjadi kesalahan), transparansi (cara kerja dan dampak dapat dijelaskan), dan perlindungan data serta privasi. AI seharusnya memperkuat proses belajar, bukan menggantikan pengajar atau mengubah kampus menjadi ruang pengawasan yang menekan.",
+      "campus_examples": "Pedoman mata kuliah yang menjelaskan batas penggunaan ChatGPT; kebijakan kampus yang mewajibkan evaluasi dampak etis sebelum membeli sistem proctoring baru.",
+      "notes": "Bisa dirujukkan ke kerangka FATE (Fairness, Accountability, Transparency, Ethics) dan rekomendasi UNESCO."
+    },
+    {
+      "id": "literasi_digital_emansipatoris",
+      "nama": "Literasi Digital Emansipatoris",
+      "short_definition": "Pendekatan literasi digital yang tidak hanya mengajarkan cara memakai teknologi, tetapi juga membantu mahasiswa memahami dan menantang relasi kuasa dan ketidakadilan di ruang digital, serta mendorong tindakan kolektif.",
+      "long_explanation": "Berbasis pemikiran Paulo Freire, literasi digital emansipatoris memandang mahasiswa sebagai subjek yang mampu membaca dan mengubah dunia digital, bukan sekadar pengguna pasif. Fokusnya adalah kesadaran kritis: memahami siapa yang mengontrol platform, bagaimana data digunakan, siapa yang diuntungkan dan dirugikan, lalu merancang respon yang etis dan kolektif. Ini melampaui keterampilan teknis seperti login atau mengerjakan tugas online.",
+      "campus_examples": "Kelas yang mengajak mahasiswa menganalisis Terms of Service platform kampus; proyek tugas di mana mahasiswa membuat kampanye kritis tentang pengawasan algoritmik di kampus.",
+      "notes": "Ini bisa jadi 'benang merah' semua modul: dari pemula sampai lanjut, selalu ada elemen kesadaran kritis dan ajakan bertindak."
+    }
+  ]
+}

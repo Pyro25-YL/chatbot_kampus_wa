@@ -1,0 +1,78 @@
+{
+  "title": "Jadwal Ujian Akhir Semester Ganjil 2025/2026",
+  "exams": [
+    {
+      "tanggal": "8 - 10 Desember 2025",
+      "waktu": "07.00 - 15.00",
+      "mataKuliah": "Interaksi Manusia dan Kecerdasan Artifisial",
+      "kelas": [
+        { "nama": "2025 A", "ruang": "E2.01.08" },
+        { "nama": "2025 B", "ruang": "E2.01.09" },
+        { "nama": "2025 C", "ruang": "E2.01.09" }
+      ]
+    },
+    {
+      "tanggal": "Senin, 15 Desember 2025",
+      "waktu": "07.30 - 09.10",
+      "mataKuliah": "Matematika Dasar",
+      "kelas": [
+        { "nama": "2025 A", "keterangan": "NIM 004-054", "ruang": "E2.01.06" },
+        { "nama": "2025 A", "keterangan": "NIM 060-093", "ruang": "E2.01.07" },
+        { "nama": "2025 B", "ruang": "C1.04.03 / Ulakom" },
+        { "nama": "2025 C", "ruang": "C1.04.05 / Multimedia" }
+      ]
+    },
+    {
+      "tanggal": "Senin, 15 Desember 2025",
+      "waktu": "09.30 - selesai",
+      "mataKuliah": "Dasar Pemrograman",
+      "kelas": [
+        { "nama": "2025 A", "ruang": "E2.01.06" },
+        { "nama": "2025 B", "ruang": "E2.01.07" },
+        { "nama": "2025 C", "keterangan": "NIM 003-055", "ruang": "E2.01.07" },
+        { "nama": "2025 C", "keterangan": "NIM 056-092", "ruang": "E2.01.07" }
+      ]
+    },
+    {
+      "tanggal": "Selasa, 16 Desember 2025",
+      "waktu": "07.30 - 09.10",
+      "mataKuliah": "Matematika Diskrit",
+      "kelas": [
+        { "nama": "2025 A", "ruang": "C1.04.03 / Ulakom" },
+        { "nama": "2025 B", "ruang": "C1.04.05 / Multimedia" },
+        { "nama": "2025 C", "ruang": "E2.01.06" }
+      ]
+    },
+    {
+      "tanggal": "Rabu, 17 Desember 2025",
+      "waktu": "07.00 - selesai",
+      "mataKuliah": "Penjasbug",
+      "kelas": [
+        { "nama": "2025 A" },
+        { "nama": "2025 B" },
+        { "nama": "2025 C" }
+      ]
+    },
+    {
+      "tanggal": "Kamis, 18 Desember 2025",
+      "waktu": "",
+      "mataKuliah": "Literasi Digital",
+      "kelas": [
+        { "nama": "2025 A", "ruang": "Online" },
+        { "nama": "2025 B", "ruang": "Online" },
+        { "nama": "2025 C", "ruang": "Online" }
+      ]
+    },
+    {
+      "tanggal": "Jum'at, 19 Desember 2025",
+      "waktu": "07.30 - 09.30",
+      "mataKuliah": "Aljabar Matriks",
+      "kelas": [
+        { "nama": "2025 A", "keterangan": "NIM 004-054", "ruang": "E2.01.06" },
+        { "nama": "2025 A", "keterangan": "NIM 060-093", "ruang": "E2.01.07" },
+        { "nama": "2025 B", "ruang": "C1.04.03 / Ulakom" },
+        { "nama": "2025 C", "ruang": "C1.04.05 / Multimedia" }
+      ]
+    }
+  ]
+}

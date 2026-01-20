@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "exportedAt": "2026-01-19T19:33:16.493Z",
+    "version": 1
+  },
+  "data": {
+    "config": {
+      "currentWeek": 1
+    },
+    "classes": {
+      "kelas": {
+        "2025A": {
+          "matkul": [
+            {
+              "nama": "Literasi Digital",
+              "kode": "LD",
+              "dosen": "Dr. Elly Matul Imah, M. Kom.",
+              "hari": 1,
+              "jam": "07.00-08.40",
+              "ruangan": "VIRTUAL",
+              "pj": "Dika"
+            },
+            {
+              "nama": "Aljabar Matriks",
+              "kode": "ALJABAR",
+              "dosen": "Ike Fitriyaningsih, M. Si. / Riskyana Dewi Intan Puspitasari, M. Kom.",
+              "hari": 1,
+              "jam": "13.00-15.30",
+              "ruangan": "E2.01.06",
+              "pj": "Ofik"
+            },
+            {
+              "nama": "Pendidikan Jasmani dan Kebugaran",
+              "kode": "PENJAS",
+              "dosen": "Dr. Hijrin Fithroni, S.Or., M.Pd.",
+              "hari": 2,
+              "jam": "07.00-08.40",
+              "ruangan": "LAPANGAN",
+              "pj": "Aulia"
+            },
+            {
+              "nama": "Interaksi Manusia dan Kecerdasan Artifisial",
+              "kode": "IMKA",
+              "dosen": "Fadhliah Qalbi Annisa, M. SC.",
+              "hari": 2,
+              "jam": "13.00-15.30",
+              "ruangan": "E2.01.06",
+              "pj": "Grace"
+            },
+            {
+              "nama": "Dasar Pemrograman",
+              "kode": "DASPROM",
+              "dosen": "Dr. Elly Matul Imah, M. Kom.",
+              "hari": 3,
+              "jam": "09.30-12.00",
+              "ruangan": "E2.01.06",
+              "pj": "Gustav"
+            },
+            {
+              "nama": "Asistensi Aljabar Matriks",
+              "kode": "ASISALJ",
+              "dosen": "Asisten Praktikum",
+              "hari": 3,
+              "jam": "13.50-15.30",
+              "ruangan": "C1.04 (Ulakom)",
+              "pj": "Ofik"
+            },
+            {
+              "nama": "Matematika Diskrit",
+              "kode": "MATDIS",
+              "dosen": "Harmon Prayogi, M. Sc.",
+              "hari": 4,
+              "jam": "07.00-09.30",
+              "ruangan": "E2.01.06",
+              "pj": "Diega"
+            },
+            {
+              "nama": "Matematika Dasar",
+              "kode": "MATDAS",
+              "dosen": "R.A. Diva Zatadini, M. Si.",
+              "hari": 4,
+              "jam": "09.30-12.00",
+              "ruangan": "E2.01.06",
+              "pj": "Gavra"
+            },
+            {
+              "nama": "Praktikum Dasar Pemrograman",
+              "kode": "PRAK_DASPROM",
+              "dosen": "Asisten Praktikum",
+              "hari": 4,
+              "jam": "13.50-15.30",
+              "ruangan": "C1.04 (Multimedia)",
+              "pj": "Gustav"
+            }
+          ],
+          "tugas": []
+        },
+        "2025B": {
+          "matkul": [
+            {
+              "nama": "Literasi Digital",
+              "kode": "LD",
+              "dosen": "Dr. Elly Matul Imah, M. Kom.",
+              "hari": 1,
+              "jam": "07.00-08.40",
+              "ruangan": "VIRTUAL",
+              "pj": "Malcolm"
+            },
+            {
+              "nama": "Aljabar Matriks",
+              "kode": "ALJABAR",
+              "dosen": "Ike Fitriyaningsih, M. Si.",
+              "hari": 1,
+              "jam": "09.30-12.00",
+              "ruangan": "E2.01.07",
+              "pj": "Adhistya"
+            },
+            {
+              "nama": "Interaksi Manusia dan Kecerdasan Artifisial",
+              "kode": "IMKA",
+              "dosen": "Fadhliah Qalbi Annisa, M. SC.",
+              "hari": 1,
+              "jam": "13.00-15.30",
+              "ruangan": "E2.01.07",
+              "pj": "Reza"
+            },
+            {
+              "nama": "Pendidikan Jasmani dan Kebugaran",
+              "kode": "PENJAS",
+              "dosen": "Dr. Hijrin Fithroni, S.Or., M.Pd.",
+              "hari": 2,
+              "jam": "07.00-08.40",
+              "ruangan": "LAPANGAN",
+              "pj": "Ubay"
+            },
+            {
+              "nama": "Dasar Pemrograman",
+              "kode": "DASPROM",
+              "dosen": "Harmon Prayogi, M. Sc.",
+              "hari": 2,
+              "jam": "09.30-12.00",
+              "ruangan": "E2.01.07",
+              "pj": "Muthe"
+            },
+            {
+              "nama": "Matematika Diskrit",
+              "kode": "MATDIS",
+              "dosen": "Harmon Prayogi, M. Sc. / Riskyana Dewi Intan Puspitasari, M. Kom.",
+              "hari": 3,
+              "jam": "09.30-12.00",
+              "ruangan": "E2.01.07",
+              "pj": "Chris"
+            },
+            {
+              "nama": "Asistensi Aljabar Matriks",
+              "kode": "ASISALJ",
+              "dosen": "Asisten Praktikum",
+              "hari": 3,
+              "jam": "13.50-15.30",
+              "ruangan": "C1.04 (Multimedia) / C1.04 (Ulakom)",
+              "pj": "Adhistya"
+            },
+            {
+              "nama": "Praktikum Dasar Pemrograman",
+              "kode": "PRAK_DASPROM",
+              "dosen": "Asisten Praktikum",
+              "hari": 4,
+              "jam": "09.30-12.00",
+              "ruangan": "C1.04 (Ulakom)",
+              "pj": "Muthe"
+            },
+            {
+              "nama": "Matematika Dasar",
+              "kode": "MATDAS",
+              "dosen": "Dr. Rahmawati Erma Standsyah, M. Si.",
+              "hari": 4,
+              "jam": "13.00-15.30",
+              "ruangan": "E2.01.07",
+              "pj": "Michael"
+            }
+          ],
+          "tugas": [
+            {
+              "namaTugas": "Matdis - 2 soal dari Gmeet (kumpul di LMS)",
+              "matkulTerkait": "MATDIS",
+              "deskripsi": "Kerjakan 2 soal Matdis dari Gmeet di kertas, kumpulkan via LMS.",
+              "jenis": "ditulis",
+              "deadlineDate": "2025-12-03T23:59:59.000Z",
+              "selesai": false
+            },
+            {
+              "namaTugas": "Laprak 7",
+              "matkulTerkait": "PRAK_DASPROM",
+              "deskripsi": "Laporan praktikum 7.",
+              "jenis": "laporan",
+              "deadlineDate": "2025-12-04T23:59:59.000Z",
+              "selesai": false
+            },
+            {
+              "namaTugas": "Remidi Dasprog (kumpul di LMS)",
+              "matkulTerkait": "DASPROM",
+              "deskripsi": "Remidi Dasar Pemrograman, kumpulkan di LMS.",
+              "jenis": "remidi",
+              "deadlineDate": "2025-12-01T23:59:59.000Z",
+              "selesai": false
+            },
+            {
+              "namaTugas": "Upload tugas Matdis di LMS",
+              "matkulTerkait": "MATDIS",
+              "deskripsi": "Upload tugas Matdis di LMS.",
+              "jenis": "upload",
+              "deadlineDate": null,
+              "selesai": false
+            },
+            {
+              "namaTugas": "Altrix - soal PPT slide 28",
+              "matkulTerkait": "ALJABAR",
+              "deskripsi": "Kerjakan soal di PPT slide 28.",
+              "jenis": "tugas",
+              "deadlineDate": "2025-12-04T23:59:59.000Z",
+              "selesai": false
+            }
+          ]
+        },
+        "2025C": {
+          "matkul": [
+            {
+              "nama": "Literasi Digital",
+              "kode": "LD",
+              "dosen": "Dr. Elly Matul Imah, M. Kom.",
+              "hari": 1,
+              "jam": "07.00-08.40",
+              "ruangan": "VIRTUAL",
+              "pj": "Khaira"
+            },
+            {
+              "nama": "Dasar Pemrograman",
+              "kode": "DASPROM",
+              "dosen": "Harmon Prayogi, M. Sc.",
+              "hari": 1,
+              "jam": "09.30-12.00",
+              "ruangan": "E2.01.06",
+              "pj": "Arifa"
+            },
+            {
+              "nama": "Pendidikan Jasmani dan Kebugaran",
+              "kode": "PENJAS",
+              "dosen": "Dr. Hijrin Fithroni, S.Or., M.Pd.",
+              "hari": 2,
+              "jam": "07.00-08.40",
+              "ruangan": "LAPANGAN",
+              "pj": "Tsabita"
+            },
+            {
+              "nama": "Aljabar Matriks",
+              "kode": "ALJABAR",
+              "dosen": "Ike Fitriyaningsih, M. Si. / Riskyana Dewi Intan Puspitasari, M. Kom.",
+              "hari": 2,
+              "jam": "09.30-12.00",
+              "ruangan": "E2.01.06",
+              "pj": "Narendra"
+            },
+            {
+              "nama": "Matematika Diskrit",
+              "kode": "MATDIS",
+              "dosen": "Harmon Prayogi, M. Sc.",
+              "hari": 3,
+              "jam": "07.00-09.30",
+              "ruangan": "E2.01.06",
+              "pj": "Bima"
+            },
+            {
+              "nama": "Interaksi Manusia dan Kecerdasan Artifisial",
+              "kode": "IMKA",
+              "dosen": "Fadhliah Qalbi Annisa, M. SC.",
+              "hari": 3,
+              "jam": "13.00-15.30",
+              "ruangan": "E2.01.06",
+              "pj": "Reyfani"
+            },
+            {
+              "nama": "Asistensi Aljabar Matriks",
+              "kode": "ASISALJ",
+              "dosen": "Asisten Praktikum",
+              "hari": 4,
+              "jam": "07.00-09.30",
+              "ruangan": "C1.04 (Ulakom)",
+              "pj": "Narendra"
+            },
+            {
+              "nama": "Praktikum Dasar Pemrograman",
+              "kode": "PRAK_DASPROM",
+              "dosen": "Asisten Praktikum",
+              "hari": 4,
+              "jam": "09.30-12.00",
+              "ruangan": "C1.04 (Multimedia)",
+              "pj": "Arifa"
+            },
+            {
+              "nama": "Matematika Dasar",
+              "kode": "MATDAS",
+              "dosen": "R.A. Diva Zatadini, M. Si.",
+              "hari": 4,
+              "jam": "13.00-15.30",
+              "ruangan": "E2.01.06",
+              "pj": "Shelma"
+            }
+          ],
+          "tugas": []
+        }
+      }
+    },
+    "pj": {
+      "kelas": {
+        "2025A": {
+          "Literasi Digital": "Dika",
+          "Dasar Pemrograman": "Gustav",
+          "Praktikum Dasar Pemrograman": "Gustav",
+          "Aljabar Matriks": "Ofik",
+          "Asistensi Aljabar Matriks": "Ofik",
+          "Matematika Dasar": "Gavra",
+          "Matematika Diskrit": "Diega",
+          "Interaksi Manusia dan Kecerdasan Artifisial": "Grace",
+          "Pendidikan Jasmani dan Kebugaran": "Aulia"
+        },
+        "2025B": {
+          "Literasi Digital": "Malcolm",
+          "Aljabar Matriks": "Adhistya",
+          "Asistensi Aljabar Matriks": "Adhistya",
+          "Matematika Dasar": "Michael",
+          "Matematika Diskrit": "Chris",
+          "Dasar Pemrograman": "Muthe",
+          "Praktikum Dasar Pemrograman": "Muthe",
+          "Pendidikan Jasmani dan Kebugaran": "Ubay",
+          "Interaksi Manusia dan Kecerdasan Artifisial": "Reza"
+        },
+        "2025C": {
+          "Literasi Digital": "Khaira",
+          "Dasar Pemrograman": "Arifa",
+          "Praktikum Dasar Pemrograman": "Arifa",
+          "Aljabar Matriks": "Narendra",
+          "Asistensi Aljabar Matriks": "Narendra",
+          "Matematika Dasar": "Shelma",
+          "Matematika Diskrit": "Bima",
+          "Interaksi Manusia dan Kecerdasan Artifisial": "Reyfani",
+          "Pendidikan Jasmani dan Kebugaran": "Tsabita"
+        }
+      }
+    },
+    "dosen": {},
+    "arsip": [],
+    "ujian": {
+      "title": "Jadwal Ujian Akhir Semester Ganjil 2025/2026",
+      "exams": [
+        {
+          "tanggal": "8 - 10 Desember 2025",
+          "waktu": "07.00 - 15.00",
+          "mataKuliah": "Interaksi Manusia dan Kecerdasan Artifisial",
+          "kelas": [
+            {
+              "nama": "2025 A",
+              "ruang": "E2.01.08"
+            },
+            {
+              "nama": "2025 B",
+              "ruang": "E2.01.09"
+            },
+            {
+              "nama": "2025 C",
+              "ruang": "E2.01.09"
+            }
+          ]
+        },
+        {
+          "tanggal": "Senin, 15 Desember 2025",
+          "waktu": "07.30 - 09.10",
+          "mataKuliah": "Matematika Dasar",
+          "kelas": [
+            {
+              "nama": "2025 A",
+              "keterangan": "NIM 004-054",
+              "ruang": "E2.01.06"
+            },
+            {
+              "nama": "2025 A",
+              "keterangan": "NIM 060-093",
+              "ruang": "E2.01.07"
+            },
+            {
+              "nama": "2025 B",
+              "ruang": "C1.04.03 / Ulakom"
+            },
+            {
+              "nama": "2025 C",
+              "ruang": "C1.04.05 / Multimedia"
+            }
+          ]
+        },
+        {
+          "tanggal": "Senin, 15 Desember 2025",
+          "waktu": "09.30 - selesai",
+          "mataKuliah": "Dasar Pemrograman",
+          "kelas": [
+            {
+              "nama": "2025 A",
+              "ruang": "E2.01.06"
+            },
+            {
+              "nama": "2025 B",
+              "ruang": "E2.01.07"
+            },
+            {
+              "nama": "2025 C",
+              "keterangan": "NIM 003-055",
+              "ruang": "E2.01.07"
+            },
+            {
+              "nama": "2025 C",
+              "keterangan": "NIM 056-092",
+              "ruang": "E2.01.07"
+            }
+          ]
+        },
+        {
+          "tanggal": "Selasa, 16 Desember 2025",
+          "waktu": "07.30 - 09.10",
+          "mataKuliah": "Matematika Diskrit",
+          "kelas": [
+            {
+              "nama": "2025 A",
+              "ruang": "C1.04.03 / Ulakom"
+            },
+            {
+              "nama": "2025 B",
+              "ruang": "C1.04.05 / Multimedia"
+            },
+            {
+              "nama": "2025 C",
+              "ruang": "E2.01.06"
+            }
+          ]
+        },
+        {
+          "tanggal": "Rabu, 17 Desember 2025",
+          "waktu": "07.00 - selesai",
+          "mataKuliah": "Penjasbug",
+          "kelas": [
+            {
+              "nama": "2025 A"
+            },
+            {
+              "nama": "2025 B"
+            },
+            {
+              "nama": "2025 C"
+            }
+          ]
+        },
+        {
+          "tanggal": "Kamis, 18 Desember 2025",
+          "waktu": "",
+          "mataKuliah": "Literasi Digital",
+          "kelas": [
+            {
+              "nama": "2025 A",
+              "ruang": "Online"
+            },
+            {
+              "nama": "2025 B",
+              "ruang": "Online"
+            },
+            {
+              "nama": "2025 C",
+              "ruang": "Online"
+            }
+          ]
+        },
+        {
+          "tanggal": "Jum'at, 19 Desember 2025",
+          "waktu": "07.30 - 09.30",
+          "mataKuliah": "Aljabar Matriks",
+          "kelas": [
+            {
+              "nama": "2025 A",
+              "keterangan": "NIM 004-054",
+              "ruang": "E2.01.06"
+            },
+            {
+              "nama": "2025 A",
+              "keterangan": "NIM 060-093",
+              "ruang": "E2.01.07"
+            },
+            {
+              "nama": "2025 B",
+              "ruang": "C1.04.03 / Ulakom"
+            },
+            {
+              "nama": "2025 C",
+              "ruang": "C1.04.05 / Multimedia"
+            }
+          ]
+        }
+      ]
+    },
+    "pjContacts": {},
+    "groups": {}
+  }
+}

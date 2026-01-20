@@ -1,3 +1,6 @@
-2026/01/10-17:47:19.667 10ec Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/01/10-17:47:19.680 10ec Recovering log #33
-2026/01/10-17:47:19.683 10ec Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000033.log 
+2026/01/20-13:12:12.892 4fb4 Reusing MANIFEST C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/01/20-13:12:12.899 4fb4 Recovering log #13
+2026/01/20-13:12:12.904 4fb4 Reusing old log C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000013.log 
+2026/01/20-13:51:47.943 3fe4 Level-0 table #17: started
+2026/01/20-13:51:47.962 3fe4 Level-0 table #17: 14481 bytes OK
+2026/01/20-13:51:47.968 3fe4 Delete type=0 #13

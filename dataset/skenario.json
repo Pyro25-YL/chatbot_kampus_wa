@@ -1,0 +1,72 @@
+{
+  "skenario": [
+    {
+      "id": "S1_proctor_ai",
+      "judul": "Ujian Online dengan Proctor AI",
+      "ringkasan": "Mahasiswa mengikuti ujian online yang diawasi proctor AI; sistem menandai gerakan 'mencurigakan' karena lag dan kondisi teknis, menimbulkan rasa tidak adil dan ancaman hukuman.",
+      "narasi": "Selama UAS daring, kampus mewajibkan semua mahasiswa menggunakan aplikasi proctoring berbasis AI dengan kamera dan mikrofon menyala terus. Raka, mahasiswa semester 3, ujian dari kamar kos yang sempit dan koneksi internet tidak stabil. Di tengah ujian, koneksi beberapa kali putus sehingga gambar tersendat. Setelah ujian, ia mendapat email bahwa ujiannya sedang diselidiki karena sistem mendeteksi 'gerakan mencurigakan' dan 'perubahan pola suara latar'. Raka panik: ia merasa diperlakukan seperti tertuduh tanpa penjelasan tentang algoritme, kriteria kecurigaan, dan cara membela diri.",
+      "sudut_pandang_mahasiswa": "Raka merasa dianggap curang duluan oleh mesin, ruang privatnya diambil alih kamera, dan tidak punya posisi tawar untuk menjelaskan kondisi teknis. Ia cemas nilainya dibatalkan dan merasa tidak ada transparansi.",
+      "poin_etika": [
+        "Proporsionalitas pengawasan dan batas wajar masuk ke ruang privat mahasiswa.",
+        "Bias dan akurasi algoritme proctoring terhadap kondisi teknis dan variasi perilaku.",
+        "Hak atas proses yang adil dan mekanisme banding yang jelas.",
+        "Alternatif desain penilaian yang tidak harus memakai pengawasan invasif."
+      ],
+      "pertanyaan_refleksi": [
+        "Bagian mana dari proses ujian seperti ini yang paling membuatmu merasa kehilangan kendali atas ruang dan tubuhmu?",
+        "Kalau kamu boleh mengusulkan bentuk ujian lain, seperti apa yang tetap menjaga kejujuran tapi tidak se-invasif ini?"
+      ]
+    },
+    {
+      "id": "S2_chatgpt_tugas",
+      "judul": "Menggunakan ChatGPT untuk Tugas di Tengah Kebijakan Abu-Abu",
+      "ringkasan": "Mahasiswa memakai ChatGPT untuk membantu tugas ketika kebijakan kampus tentang AI belum jelas; muncul kecemasan soal integritas akademik dan keadilan.",
+      "narasi": "Di kampus, sebagian dosen melarang penggunaan AI untuk tugas, sebagian membolehkan dengan syarat, dan sebagian lagi diam saja. Nadia, mahasiswa semester 5, mengalami dua pendekatan berbeda di dua mata kuliah. Di satu mata kuliah, dosen dengan jelas membolehkan AI untuk brainstorming tapi melarang copy-paste. Di mata kuliah lain, tidak ada penjelasan. Nadia memakai ChatGPT untuk menyusun outline dan beberapa paragraf, lalu mengedit sendiri. Beberapa minggu kemudian, kampus mengumumkan lonjakan kasus pelanggaran akademik terkait AI dan rencana menyusun kebijakan baru. Nadia cemas: apakah ia sudah melanggar, padahal sejak awal aturan tidak jelas?",
+      "sudut_pandang_mahasiswa": "Nadia merasa terjebak di area abu-abu, ingin tetap belajar dengan jujur tapi juga tidak ingin tertinggal jika orang lain memanfaatkan AI lebih agresif. Ia takut tiba-tiba dituduh curang tanpa pernah diberi panduan yang jelas.",
+      "poin_etika": [
+        "Kebutuhan akan kebijakan AI yang transparan dan adil di kampus.",
+        "Perbedaan antara AI sebagai partner belajar versus pengganti berpikir.",
+        "Dimensi keadilan ketika akses dan literasi AI tidak merata di antara mahasiswa.",
+        "Pelibatan suara mahasiswa dalam merumuskan pedoman penggunaan AI."
+      ],
+      "pertanyaan_refleksi": [
+        "Selama ini kamu lebih sering memakai AI sebagai alat bantu berpikir atau sebagai pengganti menulis?",
+        "Jika kamu diminta membantu dosen menyusun panduan penggunaan AI, tiga aturan apa yang akan kamu usulkan?"
+      ]
+    },
+    {
+      "id": "S3_absensi_biometrik",
+      "judul": "Absensi dan Akses Kampus dengan Face Recognition",
+      "ringkasan": "Kampus mengganti sistem absensi menjadi pemindai wajah; mahasiswa menikmati kepraktisan tapi khawatir soal penyimpanan dan penyalahgunaan data biometrik.",
+      "narasi": "Universitas mengumumkan sistem baru: absensi kuliah dan akses ke beberapa gedung memakai pemindai wajah. Mahasiswa harus mendaftarkan foto wajah di awal semester dan berdiri di depan kamera untuk dicocokkan setiap masuk kelas. Laila, mahasiswa baru, merasa sistem ini praktis. Namun setelah membaca berita tentang penyalahgunaan face recognition dan kebocoran data di tempat lain, ia mulai khawatir. Ia tidak tahu data wajahnya disimpan di mana, oleh siapa, untuk tujuan apa saja, berapa lama, dan apakah bisa dihapus setelah lulus.",
+      "sudut_pandang_mahasiswa": "Laila berada di posisi campuran: nyaman dengan kepraktisan, tetapi takut data wajahnya bocor atau dipakai di luar kontrol. Ia merasa tidak benar-benar punya pilihan, karena absensi penting untuk kelulusan.",
+      "poin_etika": [
+        "Data biometrik sebagai data sangat sensitif yang sulit diganti jika bocor.",
+        "Persetujuan yang bermakna vs persetujuan yang dipaksa karena wajib.",
+        "Proporsionalitas penggunaan teknologi canggih untuk tugas sederhana seperti absensi.",
+        "Hak mahasiswa untuk mengetahui, mengakses, dan meminta penghapusan data biometriknya."
+      ],
+      "pertanyaan_refleksi": [
+        "Apa perbedaan pengalaman menurutmu antara menandatangani daftar hadir dan memindai wajah di kamera?",
+        "Informasi apa saja yang kamu butuhkan dari kampus sebelum bisa merasa nyaman menyerahkan data biometrik?"
+      ]
+    },
+    {
+      "id": "S4_lms_tracking",
+      "judul": "LMS dan Aplikasi Kampus yang Diam-diam Melacak",
+      "ringkasan": "Platform LMS dan aplikasi kampus yang direkomendasikan pemerintah ternyata mengandung tracker yang memantau siswa di luar konteks belajar; mahasiswa merasa menjadi produk data.",
+      "narasi": "Kampus mengadopsi berbagai platform pembelajaran yang direkomendasikan pemerintah selama pandemi. Mahasiswa wajib mengerjakan tugas, kuis, dan ujian di sana, kadang harus menginstal aplikasi tambahan di perangkat pribadi. Beberapa tahun kemudian, laporan dari organisasi hak asasi mengungkap bahwa banyak produk EdTech yang digunakan di berbagai negara mengandung tracker yang memantau anak dan pelajar jauh di luar jam dan konteks pembelajaran, serta mengirim data ke pihak ketiga untuk kepentingan komersial. Fajar, mahasiswa di kampus tersebut, mulai memperhatikan bahwa iklan di media sosialnya terasa sangat mirip dengan materi yang ia akses di LMS. Ia merasa bukan cuma 'mahasiswa' tetapi juga 'produk data' yang diperdagangkan.",
+      "sudut_pandang_mahasiswa": "Fajar merasa dikhianati karena platform yang diframing sebagai solusi pendidikan ternyata melanggar privasi. Ia bingung membedakan fitur yang perlu untuk belajar dan fungsi tersembunyi untuk kepentingan bisnis.",
+      "poin_etika": [
+        "Prinsip bahwa pelajar bukan produk; teknologi pendidikan tidak boleh mengeksploitasi data siswa.",
+        "Pembatasan tujuan pemrosesan data: data belajar tidak boleh dimanfaatkan untuk iklan atau tujuan komersial lain.",
+        "Tanggung jawab pemerintah dan kampus dalam memilih produk EdTech yang menghormati hak digital.",
+        "Dampak jangka panjang profiling siswa terhadap kesempatan hidup mereka."
+      ],
+      "pertanyaan_refleksi": [
+        "Pernahkah kamu merasa isi iklan atau rekomendasi kontenmu sangat mirip dengan materi yang kamu akses untuk kuliah?",
+        "Kalau kamu bisa menulis satu prinsip wajib untuk semua platform pendidikan yang dipakai kampus, prinsip apa yang akan kamu tulis?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "kelas": {
+    "2025A": {
+      "Literasi Digital": "Dika",
+      "Dasar Pemrograman": "Gustav",
+      "Praktikum Dasar Pemrograman": "Gustav",
+      "Aljabar Matriks": "Ofik",
+      "Asistensi Aljabar Matriks": "Ofik",
+      "Matematika Dasar": "Gavra",
+      "Matematika Diskrit": "Diega",
+      "Interaksi Manusia dan Kecerdasan Artifisial": "Grace",
+      "Pendidikan Jasmani dan Kebugaran": "Aulia"
+    },
+    "2025B": {
+      "Literasi Digital": "Malcolm",
+      "Aljabar Matriks": "Adhistya",
+      "Asistensi Aljabar Matriks": "Adhistya",
+      "Matematika Dasar": "Michael",
+      "Matematika Diskrit": "Chris",
+      "Dasar Pemrograman": "Muthe",
+      "Praktikum Dasar Pemrograman": "Muthe",
+      "Pendidikan Jasmani dan Kebugaran": "Ubay",
+      "Interaksi Manusia dan Kecerdasan Artifisial": "Reza"
+    },
+    "2025C": {
+      "Literasi Digital": "Khaira",
+      "Dasar Pemrograman": "Arifa",
+      "Praktikum Dasar Pemrograman": "Arifa",
+      "Aljabar Matriks": "Narendra",
+      "Asistensi Aljabar Matriks": "Narendra",
+      "Matematika Dasar": "Shelma",
+      "Matematika Diskrit": "Bima",
+      "Interaksi Manusia dan Kecerdasan Artifisial": "Reyfani",
+      "Pendidikan Jasmani dan Kebugaran": "Tsabita"
+    }
+  }
+}

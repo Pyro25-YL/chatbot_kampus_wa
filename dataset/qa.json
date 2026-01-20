@@ -1,0 +1,167 @@
+{
+  "qa": [
+    {
+      "id": "Q1",
+      "user_level": "pemula",
+      "topic": "feodalisme_digital",
+      "user_question": "Kak, aku baru pertama kali dengar istilah feodalisme digital. Itu maksudnya apa sih?",
+      "bot_answer": "Wajar banget kalau kamu baru dengar istilah itu. Banyak mahasiswa juga pertama kali ketemu istilah ini di kampus atau media sosial. Secara sederhana, feodalisme digital itu cara kita menyebut keadaan ketika kehidupan digital kita dikuasai oleh sedikit perusahaan teknologi besar. Mereka seperti 'tuan tanah' yang punya lahan berupa platform, server, dan aplikasi. Kita sebagai pengguna jadi seperti 'penyewa' yang harus ikut aturan mereka, menyerahkan data, perhatian, bahkan kerja intelektual kita, supaya bisa tetap 'tinggal' di lahan digital itu. Coba kamu pikirkan: aplikasi atau platform apa saja yang wajib kamu pakai untuk kuliah atau komunikasi, dan seberapa banyak data yang sudah kamu berikan ke mereka? Dari situ, kita bisa pelan-pelan ngobrol: apakah relasi ini adil atau lebih mirip hubungan 'tuan tanah–penyewa' tadi.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["definisi", "pemula"]
+    },
+    {
+      "id": "Q2",
+      "user_level": "pemula",
+      "topic": "etika_ai_pendidikan",
+      "user_question": "Kak, sekarang kampus banyak banget pakai AI. Sebenarnya AI di kampus itu buat apa sih?",
+      "bot_answer": "Pertanyaan bagus banget, dan penting kamu tanyakan. Nggak semua orang berani tanya ini secara terbuka. Di kampus, AI bisa dipakai untuk banyak hal: misalnya membantu dosen menilai tugas, memantau kehadiran dan aktivitas di LMS, mendeteksi plagiarisme, sampai mengawasi ujian online lewat proctor AI. Di sisi lain, mahasiswa juga sering pakai AI untuk cari ide, merangkum bacaan, atau bahkan menyusun draft tugas. Yang perlu kita kritisi adalah: apakah pemakaian AI ini dijelaskan dengan transparan? Apakah datamu dilindungi? Dan apakah AI dipakai untuk memperkuat proses belajar, atau malah jadi alat pengawasan dan hukuman? Kamu boleh mulai dengan satu contoh konkret di kampusmu, nanti kita bedah bareng di sini.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["AI_kampus", "fungsi_AI"]
+    },
+    {
+      "id": "Q3",
+      "user_level": "pemula",
+      "topic": "hak_digital_mahasiswa",
+      "user_question": "Jujur aja kak, aku kadang mikir, ya udah lah, dataku dikumpulin juga nggak apa-apa. Memang kenapa?",
+      "bot_answer": "Banyak kok yang merasa begitu, apalagi kalau kita merasa 'nggak punya apa-apa untuk disembunyikan'. Jadi kamu nggak sendirian. Masalahnya, data bukan cuma soal rahasia. Dari pola klik, lokasi, jam online, sampai cara kamu ngerjain tugas, sistem bisa menebak hal-hal sensitif: kebiasaan, kelemahan, bahkan kondisi ekonomi atau kesehatanmu. Data itu bisa dipakai untuk memberi label, memprofilkan, atau mengambil keputusan tentang kamu — misalnya risiko 'curang', risiko 'drop out', dan sebagainya. Kalau prosesnya nggak transparan, mahasiswa bisa rugi tanpa tahu kenapa. Coba ingat satu aplikasi kampus yang kamu pakai. Apakah kamu tahu data apa saja yang mereka ambil dan untuk apa digunakan? Kalau belum, itu titik awal yang bagus untuk kita gali bareng di sini.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["privasi", "data"]
+    },
+    {
+      "id": "Q4",
+      "user_level": "menengah",
+      "topic": "feodalisme_digital",
+      "user_question": "Aku pernah baca kapitalisme pengawasan sama feodalisme digital, bedanya apa ya kak?",
+      "bot_answer": "Keren, berarti kamu sudah mulai masuk literatur yang cukup berat. Banyak akademisi aja masih debat soal istilah ini, jadi wajar kalau kamu bingung. Secara garis besar, kapitalisme digital atau kapitalisme pengawasan menjelaskan gimana perusahaan teknologi cari untung dengan mengubah pengalaman hidup kita jadi data untuk dianalisis dan dijual. Feodalisme digital lebih sebagai metafora politik: menggambarkan situasi ketika perusahaan-perusahaan ini bukan hanya cari untung, tapi juga seperti 'tuan tanah' digital yang menguasai infrastruktur dan memungut rente dari semua yang bergantung pada platformnya. Beberapa penulis bilang: strukturnya masih kapitalisme, cuma bentuknya makin ekstraktif dan monopolis — makanya istilahnya bisa tumpang tindih. Kalau kamu pakai dua istilah ini dalam tulisan atau diskusi kelas, penting untuk jelaskan: kamu pakai 'feodalisme digital' sebagai metafora atau kamu setuju itu adalah fase baru yang beda dari kapitalisme. Di sini, kita bisa bedah argumen masing-masing kalau kamu mau.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["teori", "perbandingan_konsep"]
+    },
+    {
+      "id": "Q5",
+      "user_level": "menengah",
+      "topic": "pengawasan_algoritmik",
+      "user_question": "Kalau pengawasan algoritmik di kampus itu konkretnya kayak gimana sih? Biar aku nggak kebayangnya cuma CCTV doang.",
+      "bot_answer": "Bagus, kamu sudah mulai pindah dari teori ke contoh. Itu langkah penting buat literasi digital yang nggak cuma hafalan istilah. Contoh pengawasan algoritmik di kampus misalnya: 1) Proctor AI yang memantau wajah, gerakan mata, dan suara kamu saat ujian, lalu memberi skor 'kecurigaan'. 2) Sistem analitik di LMS yang melacak seberapa sering kamu login, baca materi, atau mengumpulkan tugas, lalu membuat profil 'mahasiswa rajin/berisiko drop out'. 3) Sistem pemantau jaringan kampus yang otomatis menandai aktivitas tertentu sebagai 'berbahaya'. Di semua kasus itu, keputusan awal dibuat oleh algoritme — bukan manusia — dan itu bisa berdampak pada penilaian atau perlakuan terhadapmu. Pikirkan satu sistem kampus yang menurutmu 'pintar' atau otomatis. Coba jelaskan ke aku apa yang dia ukur dari kamu. Dari situ kita bisa diskusikan: apakah itu pengawasan yang proporsional, atau sudah berlebihan?",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["contoh", "proctoring", "LMS"]
+    },
+    {
+      "id": "Q6",
+      "user_level": "menengah",
+      "topic": "etika_ai_pendidikan",
+      "user_question": "Kak, jujur aku sering pakai ChatGPT buat nyari ide tugas atau bikin outline. Itu masih etis nggak sih?",
+      "bot_answer": "Terima kasih sudah jujur cerita. Banyak mahasiswa melakukan hal yang sama tapi nggak pernah diomongin, padahal penting dibahas. Secara etis, ada beberapa lapis: Kalau kamu pakai AI untuk brainstorming, mencari contoh, atau meringkas bacaan, lalu kamu tetap berpikir dan menulis dengan pemahamanmu sendiri, itu lebih dekat ke 'alat bantu belajar'. Tapi kalau kamu tinggal copy–paste jawaban AI dan mengaku itu hasil pemikiranmu, di situ mulai masuk wilayah plagiarisme dan merugikan proses belajarmu sendiri. Selain itu, perlu dicek juga aturan resmi kampus/dosen tentang pemakaian AI — supaya kamu tidak melanggar kebijakan yang sudah ditetapkan. Coba jujur ke diri sendiri: di tugas terakhir yang kamu kerjakan dengan bantuan AI, porsi berpikirmu sendiri seberapa besar? Kalau kamu mau, kita bisa latihan bareng: gimana mengubah AI dari 'mesin pembuat tugas' jadi 'partner diskusi' yang malah bikin kamu berpikir lebih kritis.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["ChatGPT", "integritas_akademik"]
+    },
+    {
+      "id": "Q7",
+      "user_level": "lanjut",
+      "topic": "kapitalisme_digital",
+      "user_question": "Kak, aku makin yakin kampusku kerja sama dengan vendor EdTech yang model bisnisnya eksploitasi data mahasiswa. Itu kontradiksi yang harus diterima atau bisa dinego?",
+      "bot_answer": "Kamu sudah sampai pada pertanyaan struktural, dan itu tanda literasi digitalmu berkembang. Memang nggak nyaman, tapi penting untuk dihadapi. Banyak kampus di dunia ada di posisi serupa: mereka kekurangan sumber daya teknis, sehingga tergantung pada vendor EdTech besar yang menawarkan 'solusi lengkap' — dari LMS sampai proctoring dan analitik. Di situ muncul relasi kuasa yang timpang: kampus dan mahasiswa jadi konsumen yang posisinya lemah terhadap kontrak dan desain teknologi. Namun, 'wajar' secara sistemik bukan berarti tidak bisa ditantang. Di berbagai negara, mahasiswa, dosen, dan organisasi masyarakat sipil mulai menekan kampus untuk: transparan soal kontrak dan praktik data, memasukkan klausul perlindungan data yang lebih kuat, dan mempertimbangkan alternatif yang lebih etis (termasuk solusi open-source atau infrastruktur publik). Di kampusmu, siapa saja aktor yang sebenarnya punya posisi tawar: Senat mahasiswa, BEM, senat akademik, atau unit TIK? Kamu bisa mulai dengan memetakan aktor dan ruang musyawarah yang ada. Kalau kamu mau, kita bisa susun bareng daftar pertanyaan kritis yang bisa diajukan ke pimpinan kampus tanpa terkesan menyerang.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["EdTech", "relasi_kuasa", "advokasi"]
+    },
+    {
+      "id": "Q8",
+      "user_level": "lanjut",
+      "topic": "feodalisme_digital",
+      "user_question": "Aku baca beberapa kritik yang bilang techno-feudalism terlalu dramatis dan bisa menutupi analisis kelas/ras dalam kapitalisme pengawasan. Gimana cara ngobrol soal ini dengan teman kampus biar nggak terjebak istilah?",
+      "bot_answer": "Kamu sudah masuk ke diskusi teoretis tingkat lanjut. Itu bagus, asalkan kita tetap ingat konteks ngobrolnya dengan siapa dan untuk apa. Betul, beberapa penulis berargumen istilah feodalisme digital bisa membuat orang lupa bahwa logika dasarnya masih kapitalisme: eksploitasi kerja dan data, plus relasi kelas dan ras yang timpang. Misalnya, pengawasan algoritmik sering lebih berat diarahkan ke kelompok tertentu (ras, kelas sosial, atau negara di Global South) dibanding yang lain. Di ruang kampus, kamu bisa pakai pendekatan bertahap: dengan teman yang baru mulai, gunakan feodalisme digital sebagai pintu masuk (analoginya mudah dibayangkan). Dengan teman yang sudah siap, buka diskusi bahwa istilah ini tidak netral dan bisa dikritik: apakah ia membantu atau mengaburkan struktur kapitalisme, rasisme, dan patriarki yang sudah ada. Coba pilih satu contoh konkret di kampus — misalnya kebijakan proctoring atau analitik tugas — lalu lihat: siapa yang paling dirugikan, siapa yang paling diuntungkan? Dari situ, kamu bisa menunjukkan bahwa diskusi bukan sekadar soal istilah, tapi soal siapa yang menanggung risiko dan siapa yang menuai keuntungan.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["teori_lanjut", "kritik_konsep"]
+    },
+    {
+      "id": "Q9",
+      "user_level": "reaktif",
+      "topic": "pengawasan_algoritmik",
+      "user_question": "Kak, jujur aku muak. Kampus ngawasin kita kayak intel: proctoring, CCTV, log aktivitas di LMS, semua dilihat. Ini kampus atau negara polisi sih?",
+      "bot_answer": "Perasaanmu valid, dan kamu berhak merasa nggak nyaman. Banyak mahasiswa di berbagai negara juga melaporkan rasa tertekan dan cemas karena merasa diawasi terus-menerus. Yang kamu alami itu bagian dari pengawasan algoritmik dan kebijakan kontrol yang makin mengandalkan teknologi. Di satu sisi, kampus mungkin berdalih soal kejujuran akademik atau keamanan. Di sisi lain, kalau pengawasan dilakukan berlebihan tanpa transparansi dan tanpa batas yang jelas, itu bisa melanggar hak privasi dan merusak iklim belajar. Kita perlu bedakan: pengawasan yang proporsional (misalnya pengaturan teknis ujian) dan pengawasan yang berubah menjadi kultur curiga permanen. Di titik kedua ini, kritik mahasiswa dan dosen sangat diperlukan. Daripada cuma memendam muak, ada dua langkah kecil yang bisa kamu ambil: 1) Catat pengalaman konkret yang bikin kamu merasa diawasi berlebihan (misalnya kejadian di ujian tertentu). 2) Cari satu kanal aman untuk membicarakannya — teman, BEM, dosen yang kamu percaya — dengan bahasa yang jelas dan fokus ke hak, bukan cuma emosi. Kalau kamu mau, aku bisa bantu merapikan ceritamu jadi draft yang siap dibawa ke forum dialog.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["emosional", "pengawasan", "dukungan"]
+    },
+    {
+      "id": "Q10",
+      "user_level": "reaktif",
+      "topic": "etika_ai_pendidikan",
+      "user_question": "Serius kak, kalau AI sudah bisa bikin esai, kode, presentasi, buat apa kita capek-capek kuliah dan ngerjain tugas?",
+      "bot_answer": "Pertanyaan ini sebenarnya muncul di banyak kepala orang, bukan cuma mahasiswa. Wajar kalau kamu merasa lelah dan mempertanyakan makna belajar di tengah banjir AI. Kalau kita menganggap tugas kuliah hanya sebagai produk akhir (file PDF yang dikumpul), memang kelihatan sia-sia ketika AI bisa melakukannya lebih cepat. Tapi ide dasar pendidikan bukan cuma soal menghasilkan dokumen, melainkan proses membentuk cara berpikir, kepekaan, dan kemampuan mengambil keputusan. Kalau AI dijadikan 'mesin pengganti berpikir', kita akan kehilangan kesempatan itu dan semakin bergantung pada sistem yang dikendalikan pihak lain. Tapi kalau AI dipakai sebagai 'sparring partner' — untuk diuji, dikritik, dibantah — dia justru bisa memperkaya proses belajarmu. Coba pilih satu mata kuliah yang menurutmu penting buat hidupmu, bukan cuma buat IPK. Lalu bayangkan: bagian mana dari mata kuliah itu yang tidak bisa digantikan AI (misalnya diskusi, empati, keputusan nilai, pengalaman lapangan). Dari situ, kamu bisa mulai menyusun ulang hubunganmu dengan AI: bukan sebagai pengganti dirimu, tapi sebagai alat yang kamu gunakan secara sadar.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["makna_belajar", "AI"]
+    },
+    {
+      "id": "Q11",
+      "user_level": "reaktif",
+      "topic": "hak_digital_mahasiswa",
+      "user_question": "Kampusku mewajibkan absen pakai pemindai wajah. Aku takut data biometrikku bocor atau dipakai macam-macam. Tapi kalau nolak, nanti dibilang nggak patuh. Gimana, Kak?",
+      "bot_answer": "Kekhawatiranmu masuk akal dan penting. Data biometrik (wajah, sidik jari) termasuk data yang sangat sensitif, dan kalau bocor atau disalahgunakan, dampaknya panjang. Secara prinsip hak digital, penggunaan data biometrik harus punya alasan yang kuat, transparan, dan dilindungi aturan ketat. Mahasiswa berhak tahu: siapa yang menyimpan data wajahmu, untuk tujuan apa saja, berapa lama, dan bagaimana kalau suatu saat kamu ingin data itu dihapus. Masalahnya, di banyak kampus, penjelasan ini sering tidak lengkap. Mahasiswa akhirnya seperti 'dipaksa' menyerahkan bagian tubuhnya untuk diubah jadi data, demi bisa ikut proses rutin seperti absen. Langkah kecil yang bisa kamu ambil: 1) Cari tahu dulu dokumen resminya (SOP, pengumuman, atau kontrak jika ada). 2) Kalau penjelasannya minim, kamu bisa mengajukan pertanyaan tertulis ke program studi atau unit terkait tentang perlindungan data biometrik. Aku bisa bantu kamu menyusun daftar pertanyaan yang sopan tapi tegas, supaya kekhawatiranmu tidak dianggap remeh.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["biometrik", "absensi", "privasi"]
+    },
+    {
+      "id": "Q12",
+      "user_level": "pemula",
+      "topic": "feodalisme_digital",
+      "user_question": "Kak, masih bingung. Feodalisme digital itu dampaknya ke mahasiswa apa ya, bukan cuma teori doang?",
+      "bot_answer": "Pertanyaanmu bagus banget, dan wajar kalau feodalisme digital terasa abstrak dan seperti istilah teori saja.\n\nSecara sederhana, feodalisme digital berdampak pada posisi mahasiswa yang menjadi sangat tergantung pada platform dan aturan digital yang ditentukan dari atas. Misalnya: semua urusan kuliah, absensi, dan tugas harus lewat satu sistem, data aktivitasmu terekam terus, tapi kamu hampir tidak punya suara untuk menegosiasikan syarat atau melindungi privasimu.\n\nDampaknya bisa muncul sebagai rasa tidak berdaya, takut melanggar aturan yang tidak jelas, atau menerima saja ketika datamu dikumpulkan dan dianalisis. Coba pikirkan: di kampusmu ada tidak contoh kebijakan digital yang membuatmu merasa \"ya mau tidak mau harus ikut\" walaupun ada hal yang kamu pertanyakan?",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["definisi", "dampak_mahasiswa"]
+    },
+    {
+      "id": "Q13",
+      "user_level": "menengah",
+      "topic": "etika_ai_pendidikan",
+      "user_question": "Kalau aku pakai ChatGPT untuk membantu ngerjain tugas tapi tetap aku baca dan edit sendiri, itu masih etis nggak kak?",
+      "bot_answer": "Ini pertanyaan yang sangat relevan, karena banyak mahasiswa berada di posisi yang sama sepertimu.\n\nSecara etis, yang perlu diperhatikan adalah: apakah ChatGPT kamu jadikan pengganti proses berpikir, atau sebagai alat bantu untuk menguatkan proses belajar? Kalau ide utama, argumen, dan pemahaman datang darimu, sementara ChatGPT hanya membantu merapikan kalimat, memberi contoh struktur, atau memberi sudut pandang lain, posisi itu jauh lebih bisa dipertanggungjawabkan dibanding kalau kamu menyalin mentah-mentah jawaban AI tanpa paham isinya.\n\nCoba kamu bayangkan kalau dosenmu tahu: apakah mereka akan melihat penggunaanmu sebagai bentuk kecurangan, atau sebagai cara belajar dengan alat baru? Dari sana, kamu bisa mulai merumuskan batas pribadi: bagian mana yang boleh dibantu AI, dan bagian mana yang tetap harus murni hasil pemikiranmu sendiri.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["ChatGPT", "tugas"]
+    },
+    {
+      "id": "Q14",
+      "user_level": "pemula",
+      "topic": "hak_digital_mahasiswa",
+      "user_question": "Sebenarnya sebagai mahasiswa aku punya hak apa saja soal data pribadiku di kampus?",
+      "bot_answer": "Pertanyaan ini penting banget, karena banyak kebijakan digital kampus tidak dijelaskan dengan bahasa yang mudah dipahami mahasiswa.\n\nSecara prinsip, kamu punya hak untuk tahu data apa saja yang dikumpulkan tentang dirimu, untuk apa data itu digunakan, siapa yang bisa mengaksesnya, dan berapa lama disimpan. Kamu juga berhak mempertanyakan jika ada praktik yang terasa berlebihan atau tidak relevan dengan kebutuhan belajar, misalnya pengumpulan data sensitif tanpa penjelasan yang jelas.\n\nSebagai langkah kecil, kamu bisa mulai dengan mencari atau meminta dokumen kebijakan privasi kampus atau platform yang kamu pakai. Coba baca satu bagian saja: apakah di sana dijelaskan dengan jelas soal pengelolaan data mahasiswa, atau justru terasa samar dan sulit dimengerti?",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["hak_digital", "privasi"]
+    },
+    {
+      "id": "Q15",
+      "user_level": "pemula",
+      "topic": "pengawasan_algoritmik",
+      "user_question": "Kadang aku merasa diawasi terus lewat aplikasi kampus di HP. Itu termasuk pengawasan algoritmik juga atau bukan?",
+      "bot_answer": "Perasaan diawasi terus menerus lewat aplikasi kampus di HP itu sangat masuk akal, dan banyak mahasiswa lain juga merasakannya.\n\nKalau aplikasi tersebut melacak lokasi, pola login, atau aktivitasmu, lalu datanya dianalisis secara otomatis untuk memberi status tertentu, maka itu memang bisa termasuk dalam praktik pengawasan algoritmik. Artinya bukan hanya manusia yang mengamati, tapi ada sistem yang mengolah data perilaku dan bisa memengaruhi cara kampus memandangmu sebagai mahasiswa.\n\nCoba kamu perhatikan: izin apa saja yang diminta aplikasi kampusmu (akses lokasi, kamera, penyimpanan, dan sebagainya)? Dari situ, adakah izin yang menurutmu berlebihan kalau tujuan utamanya hanya untuk administrasi kuliah?",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["mobile_app", "tracking"]
+    },
+    {
+      "id": "Q16",
+      "user_level": "menengah",
+      "topic": "hak_digital_mahasiswa",
+      "user_question": "Kalau kampus atau dosen meminta akses ke akun media sosial pribadi, itu secara etis bagaimana ya kak?",
+      "bot_answer": "Keresahanmu sangat wajar, karena media sosial pribadi sering menjadi ruang paling intim untuk mengekspresikan diri di luar konteks formal kampus.\n\nSecara etis, permintaan akses ke akun media sosial pribadi mahasiswa sebaiknya dipandang sangat hati-hati. Ada risiko pelanggaran privasi, penyalahgunaan informasi, dan kaburnya batas antara ruang pribadi dan ruang akademik. Hak digital mahasiswa mencakup hak untuk menjaga ruang ekspresi pribadi tanpa takut terus diawasi atau dinilai secara formal oleh kampus.\n\nKalau kamu berada di situasi seperti ini, kamu bisa mulai dengan bertanya: untuk tujuan apa akses diminta, apakah ada alternatif lain, dan apakah mahasiswa benar-benar bebas menolak tanpa konsekuensi. Menurutmu, di kampusmu ada nggak ruang diskusi yang aman untuk membicarakan hal-hal seperti ini secara kolektif, misalnya di BEM atau forum mahasiswa?",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["media_sosial", "privasi", "hak_digital"]
+    },
+    {
+      "id": "Q17",
+      "user_level": "lanjut",
+      "topic": "feodalisme_digital",
+      "user_question": "Bagaimana cara membaca kampus sebagai bagian dari techno-feodalisme, bukan sekadar pengguna netral platform digital?",
+      "bot_answer": "Ini pertanyaan yang menunjukkan kamu sudah memikirkan posisi kampus bukan hanya sebagai pengguna teknologi, tetapi juga sebagai aktor dalam struktur kekuasaan digital yang lebih luas.\n\nDalam kerangka techno-feodalisme, kampus bisa dipahami sebagai 'pengelola lahan' digital yang sekaligus bergantung pada dan ikut memperkuat kekuasaan platform besar. Di satu sisi, kampus sering terikat kontrak dengan vendor atau platform komersial; di sisi lain, kampus juga mengatur bagaimana mahasiswa wajib hadir dan beraktivitas di 'lahan' digital tersebut melalui kebijakan akademik. Mahasiswa menjadi semacam penyewa yang harus mengikuti aturan, sementara nilai tambah dari data dan keterikatan mereka mengalir ke kampus dan platform.\n\nRefleksi yang bisa kamu kembangkan adalah: bagaimana praktik sehari-hari di kampusmu (misalnya pemaksaan penggunaan platform tertentu, integrasi Single Sign-On, atau analitik belajar) memperlihatkan peran kampus sebagai bagian dari struktur techno-feodal ini. Adakah momen di mana kampus justru mencoba melawan atau mengurangi ketergantungan tersebut?",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["teori", "techno_feudalisme"]
+    },
+    {
+      "id": "Q18",
+      "user_level": "lanjut",
+      "topic": "etika_ai_pendidikan",
+      "user_question": "Menurut kakak, bagaimana sebaiknya desain tugas dan penilaian di era GenAI supaya tidak sekadar melarang, tapi juga kritis dan emansipatoris?",
+      "bot_answer": "Pertanyaan ini menyentuh jantung perdebatan pedagogi di era GenAI, dan menunjukkan kamu ingin melampaui logika larangan semata.\n\nDesain tugas dan penilaian yang etis di era GenAI perlu bergeser dari sekadar menguji produk akhir menjadi menilai proses berpikir dan refleksi mahasiswa. Alih-alih hanya mengatakan 'dilarang pakai AI', dosen bisa merancang tugas yang mengharuskan mahasiswa untuk mengkritisi output AI, membandingkannya dengan sumber lain, menjelaskan bagaimana mereka memodifikasi atau menolak saran dari AI, dan merefleksikan posisi etis mereka sendiri. Dengan begitu, GenAI menjadi obyek pembelajaran kritis, bukan sekadar alat curang atau alat ajaib.\n\nKamu bisa mulai memetakan: mata kuliah apa di kampusmu yang paling potensial untuk mengadopsi desain seperti ini, dan siapa saja dosen atau komunitas yang mungkin tertarik diajak berdialog tentang perubahan cara menilai di era GenAI. Dari sana, gagasan emansipatoris yang kamu punya bisa mulai diuji di konteks riil kampus.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["GenAI", "desain_tugas", "pedagogi_kritis"]
+    }
+
+  ]
+}

@@ -1,0 +1,7 @@
+{"ts":"2026-01-19T19:26:58.612Z","action":"setminggu","chatId":"120363407074320257@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"minggu":1}}
+{"ts":"2026-01-19T19:33:16.509Z","action":"exportdata","chatId":"120363407074320257@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"file":"akademik\\exports\\export-pjjson-2026-01-19T19-33-16-497Z.json","label":"pjjson"}}
+{"ts":"2026-01-19T19:35:16.119Z","action":"setkelas","chatId":"120363407074320257@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"kelas":"coba"}}
+{"ts":"2026-01-19T19:36:46.486Z","action":"setkelas","chatId":"120363407074320257@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"kelas":"anjay"}}
+{"ts":"2026-01-19T19:40:29.769Z","action":"setkelas","chatId":"120363401837470917@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"kelas":"POMMAT"}}
+{"ts":"2026-01-19T19:43:59.442Z","action":"setkelas","chatId":"120363407074320257@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"kelas":"POMMAT"}}
+{"ts":"2026-01-19T19:44:10.404Z","action":"setkelas","chatId":"120363407074320257@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"kelas":"testing"}}

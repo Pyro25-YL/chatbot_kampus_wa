@@ -5,7 +5,11 @@ const cron = require('node-cron');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // --- KONFIGURASI ---
-const GEMINI_API_KEY = "AIzaSyCiZkdgV9GqXmf_hashkR7Fp-6sSw9mT1I"; // <--- PASTE KEY BARU
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
+if (!GEMINI_API_KEY) {
+    console.error('GEMINI_API_KEY belum di-set. Set env var dulu sebelum menjalankan.');
+    process.exit(1);
+}
 const DAFTAR_ADMIN = ['6282258756166','6281343381495','6289698926555']; 
 const FILE_DB = './database.json';
 
