@@ -47,6 +47,30 @@
       "long_explanation": "Berbasis pemikiran Paulo Freire, literasi digital emansipatoris memandang mahasiswa sebagai subjek yang mampu membaca dan mengubah dunia digital, bukan sekadar pengguna pasif. Fokusnya adalah kesadaran kritis: memahami siapa yang mengontrol platform, bagaimana data digunakan, siapa yang diuntungkan dan dirugikan, lalu merancang respon yang etis dan kolektif. Ini melampaui keterampilan teknis seperti login atau mengerjakan tugas online.",
       "campus_examples": "Kelas yang mengajak mahasiswa menganalisis Terms of Service platform kampus; proyek tugas di mana mahasiswa membuat kampanye kritis tentang pengawasan algoritmik di kampus.",
       "notes": "Ini bisa jadi 'benang merah' semua modul: dari pemula sampai lanjut, selalu ada elemen kesadaran kritis dan ajakan bertindak."
+    },
+    {
+      "id": "ketergantungan_ai",
+      "nama": "Ketergantungan AI",
+      "short_definition": "Kondisi ketika mahasiswa makin sulit memulai, menyusun, atau memutuskan tanpa bantuan AI, sehingga proses belajar dan kepercayaan diri melemah.",
+      "long_explanation": "Ketergantungan AI terjadi ketika AI berubah dari alat bantu menjadi penopang utama proses berpikir. Tanda-tandanya antara lain: sulit memulai tugas tanpa AI, menyalin struktur atau argumen tanpa memahami, dan menyerahkan keputusan penting pada rekomendasi AI. Dalam jangka panjang, hal ini bisa mengurangi kemampuan bernalar, membuat mahasiswa ragu pada pemikiran sendiri, dan memperkuat ketergantungan pada platform tertentu. AI tetap bisa digunakan, tetapi perlu batasan, refleksi, dan verifikasi agar mahasiswa tetap menjadi subjek belajar.",
+      "campus_examples": "Mahasiswa panik ketika layanan AI down menjelang deadline karena ia belum menulis sama sekali; memilih topik skripsi berdasarkan saran AI tanpa diskusi dengan dosen; hanya mampu membuat outline jika sudah ada draft dari AI.",
+      "notes": "Bedakan penggunaan sehat (AI sebagai alat bantu) dan ketergantungan (AI sebagai pengganti berpikir)."
+    },
+    {
+      "id": "literasi_ai_kritis",
+      "nama": "Literasi AI Kritis",
+      "short_definition": "Kemampuan memahami cara kerja, batas, bias, dan dampak sosial AI, serta menggunakannya secara reflektif dan bertanggung jawab.",
+      "long_explanation": "Literasi AI kritis tidak hanya soal bisa memakai AI, tetapi memahami bagaimana AI bekerja, apa saja keterbatasannya (halusinasi, bias data), serta dampaknya terhadap keadilan dan privasi. Mahasiswa diajak untuk selalu memverifikasi output AI, menjelaskan peran AI dalam tugas, dan menilai apakah penggunaan AI memperkuat proses belajar atau justru melemahkannya. Literasi ini menekankan akuntabilitas: siapa yang bertanggung jawab ketika AI salah, dan bagaimana keputusan manusia tetap menjadi yang utama.",
+      "campus_examples": "Tugas esai yang mewajibkan mahasiswa menuliskan prompt, mengevaluasi hasil AI, lalu membandingkan dengan sumber akademik; diskusi kelas tentang bias AI dalam rekomendasi beasiswa.",
+      "notes": "Tekankan proses: cek fakta, transparansi penggunaan, dan refleksi etis."
+    },
+    {
+      "id": "privasi_data_ai",
+      "nama": "Privasi Data pada Alat AI",
+      "short_definition": "Risiko ketika data pribadi atau karya akademik dimasukkan ke layanan AI tanpa kontrol jelas atas penyimpanan, penggunaan, dan pembagian data.",
+      "long_explanation": "Banyak layanan AI menyimpan prompt dan output untuk peningkatan layanan, audit, atau tujuan komersial lain. Jika mahasiswa memasukkan data pribadi, data responden penelitian, atau draf tugas, ada risiko kebocoran, penyalahgunaan, atau pelanggaran kerahasiaan. Prinsip pentingnya adalah minimisasi data: hanya masukkan informasi yang benar-benar perlu, lakukan anonimisasi, dan pahami kebijakan privasi layanan. Kampus juga perlu memberikan pedoman jelas tentang apa yang boleh dan tidak boleh dimasukkan ke alat AI.",
+      "campus_examples": "Mahasiswa memasukkan transkrip wawancara responden ke AI untuk diringkas; dosen meminta unggah draf skripsi ke alat AI komersial tanpa menjelaskan kebijakan data.",
+      "notes": "Kaitkan dengan UU PDP dan kebijakan kampus tentang data sensitif."
     }
   ]
 }

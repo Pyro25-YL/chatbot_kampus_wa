@@ -69,6 +69,19 @@
           ],
           "contoh_kasus": "Mahasiswa memakai ChatGPT untuk merapikan bahasa esai yang ia tulis sendiri, tetapi temannya menyalin penuh teks dari AI tanpa membaca. Keduanya sama-sama mengumpulkan tugas dengan nama sendiri.",
           "saran_aktivitas": "Tuliskan satu skenario penggunaan AI yang menurutmu masih etis, dan satu skenario yang menurutmu sudah bermasalah. Apa bedanya?"
+        },
+        {
+          "id": "M15",
+          "judul": "AI dan Kebiasaan Belajar Sehari-hari",
+          "fokus": "Mengenali kapan AI membantu belajar dan kapan mulai menjadi ketergantungan.",
+          "tujuan": "Mahasiswa mampu membedakan penggunaan AI yang sehat dari penggunaan yang melemahkan proses berpikir.",
+          "konsep_kunci": ["etika_ai_pendidikan", "ketergantungan_ai"],
+          "pertanyaan_refleksi": [
+            "Kapan terakhir kali kamu menyelesaikan tugas tanpa bantuan AI sama sekali?",
+            "Bagian mana dari tugas yang paling sering kamu serahkan ke AI?"
+          ],
+          "contoh_kasus": "Seorang mahasiswa selalu membuka ChatGPT untuk membuat outline sebelum menulis. Saat layanan AI down menjelang deadline, ia panik dan merasa tidak tahu harus mulai dari mana.",
+          "saran_aktivitas": "Coba mulai satu tugas dengan aturan 15 menit tanpa AI. Setelah itu, bandingkan hasilnya dengan versi yang dibantu AI dan catat bedanya."
         }
       ]
     },
@@ -141,6 +154,32 @@
           ],
           "contoh_kasus": "Sekelompok mahasiswa menginisiasi diskusi informal tentang pengalaman mereka dengan proctoring dan platform kampus, kemudian menyusun catatan bersama untuk dibawa ke BEM atau senat mahasiswa.",
           "saran_aktivitas": "Bayangkan kamu akan mengadakan diskusi kecil dengan 3-5 teman tentang feodalisme digital di kampusmu. Topik awal apa yang kira-kira paling mudah untuk memulai obrolan?"
+        },
+        {
+          "id": "M16",
+          "judul": "Deteksi AI dan Proses Akademik yang Adil",
+          "fokus": "Membahas batas penggunaan detektor AI dan hak mahasiswa atas proses yang transparan.",
+          "tujuan": "Mahasiswa memahami risiko false positive dan pentingnya mekanisme banding yang jelas.",
+          "konsep_kunci": ["etika_ai_pendidikan", "hak_digital_mahasiswa"],
+          "pertanyaan_refleksi": [
+            "Jika tugasmu ditandai AI, bukti apa yang bisa kamu tunjukkan untuk menjelaskan prosesmu?",
+            "Menurutmu, seberapa adil kampus menilai keaslian tulisan hanya dari skor detektor?"
+          ],
+          "contoh_kasus": "Esai yang ditulis sendiri oleh seorang mahasiswa ditandai 85 persen AI oleh alat deteksi. Dosen memintanya menulis ulang tanpa memberi kesempatan menjelaskan proses penulisan.",
+          "saran_aktivitas": "Mulai simpan jejak proses (outline, catatan, versi draft). Jika kampus memakai detektor AI, minta pedoman tertulis tentang cara klarifikasi dan banding."
+        },
+        {
+          "id": "M18",
+          "judul": "Literasi AI Kritis dan Verifikasi",
+          "fokus": "Melatih kebiasaan mengecek output AI dan memahami batasnya.",
+          "tujuan": "Mahasiswa mampu memverifikasi output AI dengan sumber kredibel dan menjelaskan keterbatasan AI.",
+          "konsep_kunci": ["literasi_ai_kritis", "etika_ai_pendidikan"],
+          "pertanyaan_refleksi": [
+            "Seberapa sering kamu mengecek ulang jawaban AI ke sumber asli?",
+            "Bagian mana dari jawaban AI yang paling sering kamu percaya tanpa cek?"
+          ],
+          "contoh_kasus": "Mahasiswa memakai AI untuk merangkum jurnal dan langsung menyalin kutipan, padahal AI salah memahami temuan utama.",
+          "saran_aktivitas": "Ambil satu jawaban AI yang pernah kamu pakai. Cocokkan dengan dua sumber asli dan catat perbedaannya."
         }
       ]
     },
@@ -200,6 +239,19 @@
           ],
           "contoh_kasus": "Mahasiswa menyusun memo kebijakan singkat yang berisi usulan transparansi pengelolaan data proctoring dan meminta adanya mekanisme banding bagi mahasiswa yang merasa dirugikan oleh sistem.",
           "saran_aktivitas": "Tuliskan satu ide advokasi kecil (bisa berupa diskusi publik, poster edukasi, surat terbuka, atau riset bersama) yang menurutmu realistis dilakukan dalam konteks kampusmu."
+        },
+        {
+          "id": "M17",
+          "judul": "Audit Vendor AI dan Kebijakan Data Kampus",
+          "fokus": "Mengkritisi kerja sama kampus dengan vendor AI dari sisi kontrak dan pengelolaan data.",
+          "tujuan": "Mahasiswa mampu merumuskan pertanyaan kritis tentang tujuan, retensi, dan akses data pada layanan AI kampus.",
+          "konsep_kunci": ["kapitalisme_digital", "hak_digital_mahasiswa", "privasi_data_ai"],
+          "pertanyaan_refleksi": [
+            "Data apa saja yang diminta layanan AI kampus, dan apakah ada opsi opt-out?",
+            "Siapa yang boleh mengakses log percakapan atau output AI di platform kampus?"
+          ],
+          "contoh_kasus": "Kampus meluncurkan asisten AI terintegrasi SSO. Mahasiswa tidak pernah diberi tahu berapa lama data percakapan disimpan dan apakah vendor bisa menggunakannya untuk pelatihan model.",
+          "saran_aktivitas": "Susun daftar klausul minimal untuk kerja sama AI (tujuan data, batas retensi, keamanan, hak akses, dan mekanisme penghapusan). Bawa daftar ini ke forum mahasiswa atau diskusi dengan unit TIK."
         }
       ]
     }

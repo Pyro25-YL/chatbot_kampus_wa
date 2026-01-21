@@ -15,6 +15,13 @@
         "tempat": "-",
         "format": "Rapi",
         "deadline": "2026-01-12 23:59"
+      },
+      {
+        "matkul": "I Don't Fucking",
+        "detail": "Via Chat",
+        "tempat": "-",
+        "format": "Rapi",
+        "deadline": "Selasa, 20 Januari pukul 23.59"
       }
     ],
     "jadwal": [
@@ -95,6 +102,32 @@
         "tempat": "-",
         "format": "Rapi",
         "deadline": "Senin, 19 Januari pukul 23.59"
+      }
+    ],
+    "jadwal": []
+  },
+  "120363407074320257@g.us": {
+    "nama": "Me, watashi, aku",
+    "tugas": [
+      {
+        "matkul": "1. Buat Essay,",
+        "detail": "Via Chat",
+        "tempat": "-",
+        "format": "Rapi",
+        "deadline": "Selasa, 20 Januari pukul 23.59",
+        "reminders": {
+          "3h": "2026-01-20T14:00:00.081Z"
+        }
+      },
+      {
+        "matkul": "1. Essay, Deadlinenya",
+        "detail": "Via Chat",
+        "tempat": "-",
+        "format": "Rapi",
+        "deadline": "Selasa, 20 Januari pukul 23.59",
+        "reminders": {
+          "3h": "2026-01-20T14:00:02.109Z"
+        }
       }
     ],
     "jadwal": []

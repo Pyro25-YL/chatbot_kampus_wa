@@ -161,6 +161,114 @@
       "bot_answer": "Pertanyaan ini menyentuh jantung perdebatan pedagogi di era GenAI, dan menunjukkan kamu ingin melampaui logika larangan semata.\n\nDesain tugas dan penilaian yang etis di era GenAI perlu bergeser dari sekadar menguji produk akhir menjadi menilai proses berpikir dan refleksi mahasiswa. Alih-alih hanya mengatakan 'dilarang pakai AI', dosen bisa merancang tugas yang mengharuskan mahasiswa untuk mengkritisi output AI, membandingkannya dengan sumber lain, menjelaskan bagaimana mereka memodifikasi atau menolak saran dari AI, dan merefleksikan posisi etis mereka sendiri. Dengan begitu, GenAI menjadi obyek pembelajaran kritis, bukan sekadar alat curang atau alat ajaib.\n\nKamu bisa mulai memetakan: mata kuliah apa di kampusmu yang paling potensial untuk mengadopsi desain seperti ini, dan siapa saja dosen atau komunitas yang mungkin tertarik diajak berdialog tentang perubahan cara menilai di era GenAI. Dari sana, gagasan emansipatoris yang kamu punya bisa mulai diuji di konteks riil kampus.",
       "structure": ["validasi", "penjelasan", "refleksi"],
       "tags": ["GenAI", "desain_tugas", "pedagogi_kritis"]
+    },
+    {
+      "id": "Q19",
+      "user_level": "pemula",
+      "topic": "ketergantungan_ai",
+      "user_question": "Kak, aku ngerasa kalau nggak pakai AI, aku blank dan nggak bisa mulai nulis. Itu normal nggak?",
+      "bot_answer": "Perasaanmu itu banyak banget dialami mahasiswa lain, jadi kamu tidak sendirian. Di tahap awal, AI memang terasa seperti pemantik ide yang cepat. Tapi kalau tanpa AI kamu langsung merasa buntu, itu tanda kecil bahwa AI mulai mengambil porsi yang seharusnya dikerjakan otakmu sendiri.\n\nCoba pelan-pelan bangun kebiasaan baru: mulai 10-15 menit tanpa AI, tulis apa pun yang kamu pahami dulu, baru setelah itu pakai AI untuk cek struktur atau cari sudut pandang lain. Dengan cara ini, AI tetap alat bantu, bukan pegangan utama.\n\nKapan terakhir kali kamu menulis satu paragraf tanpa bantuan AI sama sekali? Dari situ kita bisa bikin langkah kecil yang realistis.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["ketergantungan", "kebiasaan_belajar"]
+    },
+    {
+      "id": "Q20",
+      "user_level": "pemula",
+      "topic": "privasi_data_ai",
+      "user_question": "Boleh nggak sih masukin data wawancara atau data pribadi ke ChatGPT biar diringkas?",
+      "bot_answer": "Pertanyaan ini penting, karena banyak orang memasukkan data sensitif ke AI tanpa sadar risikonya. Secara prinsip, data wawancara, data pribadi, atau data responden sebaiknya tidak dimasukkan ke layanan AI publik tanpa anonimisasi dan izin yang jelas.\n\nKalau kamu perlu merangkum, lakukan langkah aman: hilangkan nama, NIM, nomor telepon, lokasi spesifik, dan detail yang bisa mengidentifikasi orang. Cek juga apakah kampus atau dosenmu punya aturan khusus tentang data penelitian.\n\nApakah data yang mau kamu masukkan itu termasuk data sensitif atau bisa mengidentifikasi seseorang? Kalau iya, kita bisa cari cara ringkas yang lebih aman.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["privasi", "data_sensitif", "penelitian"]
+    },
+    {
+      "id": "Q21",
+      "user_level": "menengah",
+      "topic": "literasi_ai_kritis",
+      "user_question": "Kenapa AI sering jawab dengan yakin tapi ternyata salah? Gimana cara ngeceknya?",
+      "bot_answer": "Ini pertanyaan kunci dalam literasi AI kritis. AI generatif tidak benar-benar memahami fakta, ia memprediksi kata berikutnya berdasarkan pola data. Itu sebabnya ia bisa terdengar sangat yakin walau salah atau mengarang.\n\nCara ngeceknya: 1) minta sumber yang spesifik, 2) verifikasi minimal di dua sumber yang kredibel, 3) cek tanggal dan konteks, 4) jangan hanya percaya gaya bahasa yang rapi. Kalau hasilnya penting untuk tugas, kamu tetap harus baca sumber aslinya.\n\nDi tugas terakhirmu, bagian mana yang paling berisiko salah kalau hanya mengandalkan AI? Itu bisa jadi titik awal untuk latihan verifikasi.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["verifikasi", "halusinasi_ai", "cek_fakta"]
+    },
+    {
+      "id": "Q22",
+      "user_level": "menengah",
+      "topic": "etika_ai_pendidikan",
+      "user_question": "Dosenku minta kami lapor prompt dan hasil AI yang dipakai. Aku setuju transparan, tapi takut data pribadi kebuka. Harus gimana?",
+      "bot_answer": "Kamu punya alasan yang valid. Transparansi penggunaan AI itu baik, tetapi tetap ada batas privasi. Tidak semua prompt perlu dibagikan apa adanya, terutama jika mengandung data pribadi, pengalaman sensitif, atau informasi orang lain.\n\nKamu bisa menyiasati dengan membuat ringkasan: jelaskan tujuan penggunaan AI, jenis prompt (misalnya brainstorming atau perbaikan bahasa), dan perubahan yang kamu lakukan sendiri. Jika dosen butuh bukti proses, kamu bisa beri contoh prompt yang sudah dianonimkan.\n\nApa ada bagian dari prompt-mu yang berisi data sensitif? Kalau ada, kita bisa bantu bikin versi ringkas yang aman tapi tetap transparan.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["transparansi", "privasi", "prompt"]
+    },
+    {
+      "id": "Q23",
+      "user_level": "menengah",
+      "topic": "hak_digital_mahasiswa",
+      "user_question": "Kalau kampus pakai detektor AI, apa mereka boleh langsung menyimpulkan aku curang?",
+      "bot_answer": "Secara etis dan adil, detektor AI tidak boleh jadi satu-satunya dasar hukuman. Alat seperti itu sering menghasilkan false positive, terutama pada tulisan yang rapi atau punya struktur formal.\n\nYang ideal: skor detektor hanya jadi sinyal awal, lalu harus ada proses klarifikasi. Mahasiswa perlu diberi kesempatan menjelaskan proses menulisnya, menunjukkan draft, catatan, atau versi revisi.\n\nDi kampusmu, apakah ada pedoman tertulis tentang bagaimana hasil detektor AI dipakai? Kalau belum, itu isu yang penting untuk ditanyakan.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["detektor_ai", "proses_adil", "hak_banding"]
+    },
+    {
+      "id": "Q24",
+      "user_level": "menengah",
+      "topic": "pengawasan_algoritmik",
+      "user_question": "LMS di kampusku kasih label 'mahasiswa berisiko' dari data login. Itu normal nggak sih?",
+      "bot_answer": "Label seperti itu adalah contoh pengawasan algoritmik dan analitik prediktif. Di satu sisi, kampus mungkin ingin memberi bantuan lebih cepat. Di sisi lain, label bisa bias karena hanya mengukur hal yang mudah dilacak, bukan kondisi nyata mahasiswa.\n\nMasalahnya, jika label dipakai tanpa transparansi, mahasiswa bisa distigma. Idealnya, kampus menjelaskan indikatornya, memberi ruang klarifikasi, dan memastikan data dipakai untuk dukungan, bukan hukuman.\n\nMenurutmu, indikator apa yang tidak bisa ditangkap LMS tapi justru penting untuk memahami kondisi mahasiswa?",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["learning_analytics", "risk_scoring", "LMS"]
+    },
+    {
+      "id": "Q25",
+      "user_level": "lanjut",
+      "topic": "kapitalisme_digital",
+      "user_question": "Asisten AI kampus gratis dan wajib login SSO. Apa risikonya ke data mahasiswa?",
+      "bot_answer": "Gratis tidak selalu berarti tanpa biaya. Dalam ekosistem kapitalisme digital, data sering menjadi biaya tersembunyi. Jika asisten AI terhubung SSO, vendor bisa mengaitkan percakapan dengan identitas akademik, lalu menyimpan log atau metadatanya.\n\nRisikonya: profiling perilaku belajar, penyimpanan data lebih lama dari yang kita kira, dan ketidakjelasan siapa yang boleh mengakses log tersebut. Kampus idealnya punya kontrak yang jelas soal tujuan data, retensi, akses, dan larangan penggunaan untuk pelatihan komersial.\n\nApakah kampusmu pernah merilis kebijakan data untuk layanan AI ini? Kalau tidak, itu celah yang perlu didorong untuk transparan.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["SSO", "vendor", "data_mahasiswa"]
+    },
+    {
+      "id": "Q26",
+      "user_level": "lanjut",
+      "topic": "feodalisme_digital",
+      "user_question": "Kenapa kampus tetap maksa pakai platform tertentu padahal ada alternatif open-source?",
+      "bot_answer": "Ini pertanyaan politik teknologi yang penting. Banyak kampus memilih platform tertentu karena ada kontrak jangka panjang, ekosistem yang sudah terintegrasi, dan biaya pindah yang tinggi. Di situ terlihat logika feodalisme digital: kampus dan mahasiswa terikat pada satu 'tuan tanah' platform.\n\nAlternatif open-source sering ada, tetapi butuh sumber daya teknis, SDM, dan komitmen institusi. Tanpa itu, kampus cenderung memilih jalur yang paling mudah meski membuat ketergantungan.\n\nMenurutmu, aktor mana di kampus yang bisa mendorong kajian ulang soal ketergantungan platform ini?",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["platformisasi", "open_source", "ketergantungan"]
+    },
+    {
+      "id": "Q27",
+      "user_level": "reaktif",
+      "topic": "ketergantungan_ai",
+      "user_question": "Aku panik banget kalau nggak pakai AI. Rasanya bodoh dan takut nilainya jeblok.",
+      "bot_answer": "Perasaan panik itu valid, dan bukan berarti kamu bodoh. Ketika kita terlalu bergantung pada AI, rasa percaya diri bisa menurun karena merasa tidak bisa memulai tanpa bantuan.\n\nCoba lakukan langkah kecil yang aman: pilih satu tugas kecil, kerjakan 20 menit tanpa AI, lalu baru pakai AI untuk cek atau membandingkan. Simpan versi awalmu sebagai bukti kamu mampu. Lama-lama rasa panik itu bisa berkurang.\n\nKalau kamu mau, ceritakan tugas apa yang paling bikin panik. Kita bisa pecah jadi langkah kecil yang lebih ringan.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["emosional", "ketergantungan", "kepercayaan_diri"]
+    },
+    {
+      "id": "Q28",
+      "user_level": "reaktif",
+      "topic": "etika_ai_pendidikan",
+      "user_question": "Dosenku bilang tulisanku pasti AI, padahal aku nulis sendiri. Aku kesal banget.",
+      "bot_answer": "Wajar banget kalau kamu kesal, apalagi kalau kamu benar-benar menulis sendiri. Tuduhan tanpa proses yang jelas bisa terasa tidak adil.\n\nLangkah yang bisa kamu ambil: 1) kumpulkan bukti proses (outline, catatan, versi draft, riwayat revisi), 2) minta kesempatan klarifikasi dengan tenang, 3) tanyakan pedoman resmi kampus tentang penggunaan detektor AI. Dengan begitu, kamu membawa argumen yang kuat, bukan sekadar emosi.\n\nKalau kamu mau, aku bisa bantu menyusun pesan singkat ke dosen agar komunikasimu tetap tegas tapi sopan.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["tuduhan_ai", "proses_adil", "dukungan"]
+    },
+    {
+      "id": "Q29",
+      "user_level": "pemula",
+      "topic": "literasi_ai_kritis",
+      "user_question": "Boleh nggak pakai AI buat menerjemahkan jurnal asing biar cepat?",
+      "bot_answer": "Boleh saja sebagai alat bantu, tapi jangan langsung percaya hasil terjemahan AI. AI sering salah menerjemahkan istilah teknis atau konteks.\n\nKalau kamu pakai AI, tetap cek istilah kunci dengan sumber lain, bandingkan dengan abstrak resmi, dan pastikan maknanya tidak berubah. Lebih aman kalau kamu tetap baca bagian penting dalam bahasa aslinya.\n\nBagian mana dari jurnal yang paling sulit kamu pahami? Kita bisa cari cara menerjemahkan yang lebih akurat.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["terjemahan", "verifikasi", "jurnal"]
+    },
+    {
+      "id": "Q30",
+      "user_level": "menengah",
+      "topic": "privasi_data_ai",
+      "user_question": "Chatbot kampus minta NIM, nilai, dan keluhan pribadi. Aman nggak ya?",
+      "bot_answer": "Wajar kalau kamu ragu. Ketika chatbot meminta data identitas dan informasi sensitif, kamu berhak tahu: siapa yang menyimpan, berapa lama, dan untuk tujuan apa data itu dipakai.\n\nLangkah aman: berikan data seminimal mungkin, pastikan itu kanal resmi kampus, dan cari tahu kebijakan privasinya. Kalau informasinya tidak jelas, kamu bisa menanyakan secara tertulis ke unit terkait.\n\nApakah chatbot itu resmi dari kampus dan ada dokumen kebijakan datanya? Kalau belum jelas, lebih baik berhati-hati.",
+      "structure": ["validasi", "penjelasan", "refleksi"],
+      "tags": ["chatbot_kampus", "data_pribadi", "privasi"]
     }
 
   ]

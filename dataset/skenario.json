@@ -67,6 +67,74 @@
         "Pernahkah kamu merasa isi iklan atau rekomendasi kontenmu sangat mirip dengan materi yang kamu akses untuk kuliah?",
         "Kalau kamu bisa menulis satu prinsip wajib untuk semua platform pendidikan yang dipakai kampus, prinsip apa yang akan kamu tulis?"
       ]
+    },
+    {
+      "id": "S5_detektor_ai",
+      "judul": "Detektor AI dan Tuduhan Curang",
+      "ringkasan": "Tugas mahasiswa ditandai detektor AI dengan skor tinggi; dosen meminta ulang tanpa proses klarifikasi, memicu rasa tidak adil.",
+      "narasi": "Rina menulis esai dengan gaya bahasa yang rapi karena ia terbiasa menulis artikel. Dosen mengunggah semua esai ke alat deteksi AI, dan hasilnya menunjukkan skor 92 persen AI untuk tulisan Rina. Tanpa diskusi, dosen meminta Rina menulis ulang dan memberi catatan bahwa ia terindikasi melanggar integritas akademik. Rina kaget dan merasa diperlakukan seperti bersalah sebelum diberi kesempatan menjelaskan proses menulisnya.",
+      "sudut_pandang_mahasiswa": "Rina merasa reputasinya dirusak oleh alat yang tidak transparan. Ia bingung bagaimana membuktikan bahwa tulisannya asli jika kampus hanya melihat skor detektor.",
+      "poin_etika": [
+        "Risiko false positive dari detektor AI dan dampaknya terhadap mahasiswa.",
+        "Kebutuhan proses klarifikasi dan mekanisme banding yang adil.",
+        "Transparansi cara kampus menggunakan alat deteksi AI.",
+        "Perlindungan hak mahasiswa atas proses akademik yang adil."
+      ],
+      "pertanyaan_refleksi": [
+        "Bukti proses apa yang bisa membantu mahasiswa ketika dituduh menggunakan AI?",
+        "Apakah kampusmu punya pedoman jelas tentang penggunaan detektor AI?"
+      ]
+    },
+    {
+      "id": "S6_chatbot_kampus",
+      "judul": "Chatbot Kampus yang Meminta Data Sensitif",
+      "ringkasan": "Chatbot layanan akademik kampus meminta NIM, nilai, dan keluhan pribadi; mahasiswa ragu soal keamanan dan akses data.",
+      "narasi": "Kampus meluncurkan chatbot akademik untuk konsultasi akademik dan bantuan administratif. Untuk memulai, mahasiswa diminta memasukkan NIM, daftar nilai terakhir, dan alasan ingin konsultasi. Dito ingin bertanya soal cuti kuliah karena masalah keuangan, tapi ragu menulis detailnya ke chatbot. Ia tidak tahu apakah percakapan itu disimpan, siapa yang bisa mengaksesnya, dan berapa lama data tersebut berada di server vendor.",
+      "sudut_pandang_mahasiswa": "Dito butuh bantuan, tetapi takut data sensitifnya bocor atau digunakan di luar konteks konsultasi. Ia merasa tidak punya pilihan lain karena chatbot adalah kanal utama.",
+      "poin_etika": [
+        "Minimisasi data dan batas kebutuhan informasi pada layanan AI kampus.",
+        "Transparansi kebijakan penyimpanan dan akses log percakapan.",
+        "Hak mahasiswa atas privasi, terutama untuk isu sensitif.",
+        "Kewajiban kampus memastikan kanal aman sebelum mewajibkan penggunaan."
+      ],
+      "pertanyaan_refleksi": [
+        "Data apa saja yang seharusnya tidak diminta chatbot kampus?",
+        "Bagaimana kampus bisa memastikan mahasiswa merasa aman saat konsultasi?"
+      ]
+    },
+    {
+      "id": "S7_ai_lms",
+      "judul": "Asisten AI Penulisan di LMS",
+      "ringkasan": "Kampus memasang asisten AI penulisan di LMS; mahasiswa tertolong, tetapi khawatir draf mereka disimpan vendor.",
+      "narasi": "LMS kampus kini punya fitur asisten AI untuk membantu menulis tugas. Banyak mahasiswa terbantu karena bisa mendapat saran struktur dan perbaikan bahasa. Namun, di Terms of Service tertulis bahwa prompt dan output dapat disimpan untuk peningkatan layanan. Sari ragu menggunakan fitur ini untuk draf skripsinya karena takut ide dan tulisannya disimpan pihak ketiga tanpa kontrol.",
+      "sudut_pandang_mahasiswa": "Sari ingin memanfaatkan teknologi, tetapi merasa belum ada kepastian soal privasi dan kepemilikan karya. Ia takut drafnya dipakai di luar izin.",
+      "poin_etika": [
+        "Kepemilikan karya mahasiswa dan perlindungan hak cipta.",
+        "Retensi data dan penggunaan data untuk pelatihan model.",
+        "Kebutuhan consent yang jelas dan opsi opt-out.",
+        "Keseimbangan manfaat fitur dengan risiko privasi."
+      ],
+      "pertanyaan_refleksi": [
+        "Informasi apa yang seharusnya diumumkan kampus sebelum meluncurkan fitur AI seperti ini?",
+        "Apakah kamu akan memakai fitur ini untuk tugas penting? Mengapa?"
+      ]
+    },
+    {
+      "id": "S8_ai_rekomendasi",
+      "judul": "Rekomendasi AI untuk Mata Kuliah dan Beasiswa",
+      "ringkasan": "Sistem AI memberi rekomendasi KRS dan beasiswa; mahasiswa mengikuti saran, tetapi hasilnya tidak sesuai kebutuhan.",
+      "narasi": "Kampus memperkenalkan sistem AI yang memberi rekomendasi mata kuliah dan peluang beasiswa berdasarkan data akademik. Bagus mengikuti rekomendasi AI dan mengambil paket mata kuliah yang ternyata terlalu berat karena ia juga bekerja paruh waktu. Nilainya turun, dan ia merasa keputusan itu diambil karena terlalu percaya pada sistem. Saat protes, tidak ada penjelasan tentang bagaimana rekomendasi dibuat.",
+      "sudut_pandang_mahasiswa": "Bagus merasa keputusan pentingnya terlalu dipengaruhi rekomendasi mesin. Ia bingung siapa yang bertanggung jawab ketika saran AI ternyata tidak cocok.",
+      "poin_etika": [
+        "Akuntabilitas ketika rekomendasi AI berdampak pada keputusan akademik.",
+        "Kebutuhan penjelasan (explainability) agar mahasiswa bisa menilai saran.",
+        "Risiko bias jika data tidak mencerminkan kondisi nyata mahasiswa.",
+        "Pentingnya peran manusia dalam pengambilan keputusan akhir."
+      ],
+      "pertanyaan_refleksi": [
+        "Seberapa jauh rekomendasi AI seharusnya memengaruhi keputusan akademikmu?",
+        "Apa peran dosen wali atau konselor dalam menyeimbangkan saran AI?"
+      ]
     }
   ]
 }
