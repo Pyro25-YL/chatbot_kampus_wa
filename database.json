@@ -1,23 +1,20 @@
 {
   "120363423199085323@g.us": {
     "nama": "Penggusuran E2",
-    "tugas": [
+    "tugas": [],
+    "jadwal": [
       {
-        "matkul": "Kondangan D Dan A",
-        "detail": "Anak Penggusuran E2 Harus Gahar",
-        "tempat": "Istana Presiden As",
-        "format": "Rapi Dan Gahar",
-        "deadline": "2026-01-11 12:00"
+        "matkul": "Aseppp",
+        "dosen": "Pak Bahlul",
+        "hari": "Selasa",
+        "jam": "22.00"
       },
       {
-        "matkul": "_  Makalah Hari Senin Di",
-        "detail": "Via Chat",
-        "tempat": "-",
-        "format": "Rapi",
-        "deadline": "2026-01-12 23:59"
-      }
-    ],
-    "jadwal": [
+        "matkul": "Aseppp",
+        "dosen": "Pak Bahlul",
+        "hari": "Selasa",
+        "jam": "22.00"
+      },
       {
         "matkul": "Uuaa",
         "dosen": "Pak Bahlel",
@@ -29,41 +26,29 @@
         "dosen": "Pak Bahlel Hari Kamis Jam 23.00",
         "hari": "Kamis Jam 23.00",
         "jam": "23.00"
+      },
+      {
+        "matkul": "Halo Dek,",
+        "dosen": "Abah Anies,",
+        "hari": "Jumat ,",
+        "jam": "11.00 - 14.00"
+      },
+      {
+        "matkul": "Sawit,",
+        "dosen": "Bahlil,",
+        "hari": "Rabu,",
+        "jam": "00.00"
       }
     ]
   },
   "120363401837470917@g.us": {
     "nama": "ARC 6 | POMMAT (plenger semua)",
-    "tugas": [
-      {
-        "matkul": "Kondangan D Dan A,",
-        "detail": "Anak Pommat Harus Gahar,",
-        "tempat": "-",
-        "format": "-",
-        "deadline": "2026-01-11 12:00"
-      }
-    ],
+    "tugas": [],
     "jadwal": []
   },
   "120363335580276663@g.us": {
     "nama": "monyet pencari pisang",
-    "tugas": [
-      {
-        "matkul": "Rizq Nikah Sama Rasya   .",
-        "detail": "Via Chat",
-        "deadline": "2026-01-11 12:00"
-      },
-      {
-        "matkul": "Makan Pentol Nona Kemarin  .",
-        "detail": "Via Chat",
-        "deadline": "2026-01-10 17:53"
-      },
-      {
-        "matkul": "Makan Pentol Nona   .",
-        "detail": "Via Chat",
-        "deadline": "2026-01-11 17:53"
-      }
-    ],
+    "tugas": [],
     "jadwal": [
       {
         "matkul": "Pernikahan Rizq Dan Rasya",
@@ -75,15 +60,19 @@
   },
   "6282258756166@c.us": {
     "nama": "Yoga",
-    "tugas": [
-      {
-        "matkul": "📋 *Daftar Tugas",
-        "detail": "Via Chat",
-        "tempat": "-",
-        "format": "Rapi",
-        "deadline": "Sabtu, 10 Januari pukul 20.00"
-      }
-    ],
+    "tugas": [],
     "jadwal": []
+  },
+  "120363423858764921@g.us": {
+    "nama": "Catatan yoliz",
+    "tugas": [],
+    "jadwal": [
+      {
+        "matkul": "Yijak Konsul Sempro",
+        "dosen": "-",
+        "hari": "Kamis Besok",
+        "jam": "10"
+      }
+    ]
   }
 }

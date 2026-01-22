@@ -1,33 +1,36 @@
-// index.js
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
-const handleMessage = require('./lib/handler');
+const OtakAI = require('./lib/ai'); 
+const handleMessage = require('./lib/handler'); // <--- PANGGIL HANDLER
 const { startCron } = require('./lib/cron');
 
-// Inisialisasi Client
 const client = new Client({
     authStrategy: new LocalAuth(),
-    puppeteer: { headless: true, args: ['--no-sandbox'] }
+    puppeteer: {
+        executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+        headless: false,
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-accelerated-2d-canvas', '--no-first-run', '--no-zygote', '--disable-gpu']
+    }
 });
 
-// Event: QR Code
 client.on('qr', (qr) => {
     qrcode.generate(qr, { small: true });
     console.log('SCAN QR CODE DI ATAS 👆');
 });
 
-// Event: Siap
 client.on('ready', () => {
     console.log('✅ BOT ONLINE & PINTAR!');
-    // Jalankan cron job (reminder)
     startCron(client);
+    
+    // Inisialisasi Otak AI (Load Model)
+    OtakAI.init(); 
 });
 
 // Event: Terima Pesan
 client.on('message', async (msg) => {
-    // Oper pesan ke handler
+    // JANGAN PANGGIL AI LANGSUNG. PANGGIL HANDLER.
+    // Handler nanti yang akan tanya ke AI.
     await handleMessage(msg, client);
 });
 
-// Jalankan Bot
 client.initialize();
