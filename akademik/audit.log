@@ -5,3 +5,5 @@
 {"ts":"2026-01-19T19:40:29.769Z","action":"setkelas","chatId":"120363401837470917@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"kelas":"POMMAT"}}
 {"ts":"2026-01-19T19:43:59.442Z","action":"setkelas","chatId":"120363407074320257@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"kelas":"POMMAT"}}
 {"ts":"2026-01-19T19:44:10.404Z","action":"setkelas","chatId":"120363407074320257@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"kelas":"testing"}}
+{"ts":"2026-01-21T23:19:41.997Z","action":"broadcast","chatId":"120363407074320257@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"total":2,"sent":2,"failed":0}}
+{"ts":"2026-01-22T05:29:19.550Z","action":"broadcast","chatId":"120363401837470917@g.us","actorId":"6289698926555","actorName":"M.I.R","details":{"total":13,"sent":13,"failed":0}}

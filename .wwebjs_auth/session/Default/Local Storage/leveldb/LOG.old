@@ -1,15 +1,3 @@
-2026/01/20-22:20:41.638 5abc Reusing MANIFEST C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/01/20-22:20:41.644 5abc Recovering log #29
-2026/01/20-22:20:41.649 5abc Reusing old log C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000029.log 
-2026/01/20-22:26:29.833 5abc Level-0 table #33: started
-2026/01/20-22:26:29.842 5abc Level-0 table #33: 14794 bytes OK
-2026/01/20-22:26:29.844 5abc Delete type=0 #29
-2026/01/20-22:26:29.845 5abc Compacting 4@0 + 1@1 files
-2026/01/20-22:26:29.853 5abc Generated table #34@0: 216 keys, 13801 bytes
-2026/01/20-22:26:29.853 5abc Compacted 4@0 + 1@1 files => 13801 bytes
-2026/01/20-22:26:29.855 5abc compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/01/20-22:26:29.856 5abc Delete type=2 #21
-2026/01/20-22:26:29.856 5abc Delete type=2 #24
-2026/01/20-22:26:29.856 5abc Delete type=2 #27
-2026/01/20-22:26:29.856 5abc Delete type=2 #30
-2026/01/20-22:26:29.856 5abc Delete type=2 #33
+2026/01/22-12:28:46.617 1e9c Reusing MANIFEST C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/01/22-12:28:46.622 1e9c Recovering log #32
+2026/01/22-12:28:46.627 1e9c Reusing old log C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000032.log 

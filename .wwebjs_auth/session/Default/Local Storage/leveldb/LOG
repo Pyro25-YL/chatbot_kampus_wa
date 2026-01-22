@@ -1,3 +1,6 @@
-2026/01/20-22:33:17.037 4414 Reusing MANIFEST C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/01/20-22:33:17.043 4414 Recovering log #32
-2026/01/20-22:33:17.048 4414 Reusing old log C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000032.log 
+2026/01/22-12:30:24.694 45ec Creating DB C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
+2026/01/22-12:30:24.731 45ec Reusing MANIFEST C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/01/22-12:30:24.736 45ec Recovering log #32
+2026/01/22-12:30:24.741 45ec Reusing old log C:\Users\Hype\OneDrive\Desktop\Kuliah\Proyekan\chatbot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000032.log 
+2026/01/22-12:30:24.742 45ec Delete type=2 #5
+2026/01/22-12:30:24.742 45ec Delete type=2 #34
