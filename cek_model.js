@@ -1,8 +1,11 @@
 const https = require('https');
 
-// --- PASTE API KEY DI SINI ---
-const API_KEY = "AIzaSyCiZkdgV9GqXmf_hashkR7Fp-6sSw9mT1I"; 
-// -----------------------------
+// --- API KEY DARI ENV ---
+const API_KEY = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
+if (!API_KEY) {
+    console.log("? GEMINI_API_KEY belum di-set. Set env var dulu sebelum menjalankan.");
+    process.exit(1);
+}
 
 const url = `https://generativelanguage.googleapis.com/v1beta/models?key=${API_KEY}`;
 

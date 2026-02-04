@@ -1,45 +1,39 @@
 {
   "120363423199085323@g.us": {
     "nama": "Penggusuran E2",
-    "tugas": [],
+    "tugas": [
+      {
+        "matkul": "Matkul Konsep Dasar Ka, Detail Nya Buat Project, Format Projecet, Tempat Offline E2 Presentasi Deadline Lusa Jam 6.00",
+        "detail": "Nya Buat Project",
+        "tempat": "Offline E2 Presentasi Deadline Lusa Jam 6.00",
+        "format": "Projecet",
+        "deadline": "Jumat, 6 Februari pukul 06.00"
+      },
+      {
+        "matkul": "Tugas Hari Ini",
+        "detail": "Via Chat",
+        "tempat": "-",
+        "format": "Rapi",
+        "deadline": "Rabu, 4 Februari pukul 23.59"
+      }
+    ],
     "jadwal": [
       {
-        "matkul": "Aseppp",
-        "dosen": "Pak Bahlul",
+        "matkul": "Tambang Ilegal",
+        "dosen": "Bahlul",
         "hari": "Selasa",
-        "jam": "22.00"
-      },
-      {
-        "matkul": "Aseppp",
-        "dosen": "Pak Bahlul",
-        "hari": "Selasa",
-        "jam": "22.00"
-      },
-      {
-        "matkul": "Uuaa",
-        "dosen": "Pak Bahlel",
-        "hari": "Kamis",
-        "jam": "23.00"
-      },
-      {
-        "matkul": "Uuaa Dosen Pak Bahlel Hari Kamis Jam 23.00",
-        "dosen": "Pak Bahlel Hari Kamis Jam 23.00",
-        "hari": "Kamis Jam 23.00",
-        "jam": "23.00"
-      },
-      {
-        "matkul": "Halo Dek,",
-        "dosen": "Abah Anies,",
-        "hari": "Jumat ,",
-        "jam": "11.00 - 14.00"
+        "jam": "07.00-08.00"
       },
       {
         "matkul": "Sawit,",
-        "dosen": "Bahlil,",
-        "hari": "Rabu,",
-        "jam": "00.00"
+        "dosen": "Imigran,",
+        "hari": "Rabu",
+        "jam": "09.00-12.00"
       }
-    ]
+    ],
+    "jadwal_sementara": [],
+    "dosen": [],
+    "pj": []
   },
   "120363401837470917@g.us": {
     "nama": "ARC 6 | POMMAT (plenger semua)",
@@ -61,7 +55,14 @@
   "6282258756166@c.us": {
     "nama": "Yoga",
     "tugas": [],
-    "jadwal": []
+    "jadwal": [
+      {
+        "matkul": "Uhuy",
+        "dosen": "Benis",
+        "hari": "Ahad",
+        "jam": "00"
+      }
+    ]
   },
   "120363423858764921@g.us": {
     "nama": "Catatan yoliz",
@@ -74,5 +75,20 @@
         "jam": "10"
       }
     ]
+  },
+  "120363405119398728@g.us": {
+    "nama": "GrexDa Capital",
+    "tugas": [],
+    "jadwal": []
+  },
+  "120363407074320257@g.us": {
+    "nama": "Me, watashi, aku",
+    "tugas": [],
+    "jadwal": []
+  },
+  "120363419739991094@g.us": {
+    "nama": "Pasar organ manusia",
+    "tugas": [],
+    "jadwal": []
   }
 }
