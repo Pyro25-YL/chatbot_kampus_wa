@@ -81,64 +81,28 @@ client.on('ready', () => {
     startCron(client);
     OtakAI.init(); 
     
-    // Audit Grup setelah 5 detik
-    setTimeout(() => {
-        auditGrupIlegal();
-    }, 5000);
+
 });
 
 // --- EVENT TERIMA PESAN (DENGAN FILTER TAG/REPLY) ---
+// --- EVENT TERIMA PESAN ---
 client.on('message', async (msg) => {
     try {
         const chat = await msg.getChat();
         const contact = await msg.getContact();
-        // --- UBAH BAGIAN INI ---
-        console.log(`\n============== PESAN BARU ==============`);
-        // contact.id.user = Mengambil nomor HP bersih (contoh: 62812345678)
-        console.log(`👤 Dari: ${contact.id.user}`); 
         
+        console.log(`\n============== PESAN BARU ==============`);
+        console.log(`👤 Dari: ${contact.id.user}`); 
         console.log(`💬 Isi: ${msg.body}`);
         console.log(`📍 Lokasi: ${chat.isGroup ? 'GRUP: ' + chat.name : 'JAPRI'}`);
-        // -----------------------
+        console.log(`======================================`);
 
-        // ==========================================
-        // 🔒 FILTER TAG / REPLY (VERSI WHATSAPP-WEB.JS)
-        // ==========================================
-        if (chat.isGroup) {
-            // 1. Cek apakah Bot di-MENTION?
-            const mentions = await msg.getMentions();
-            const botId = client.info.wid._serialized;
-            const isTagged = mentions.some(contact => contact.id._serialized === botId);
-
-            // 2. Cek apakah pesan Bot di-REPLY?
-            let isReplyToBot = false;
-            if (msg.hasQuotedMsg) {
-                const quotedMsg = await msg.getQuotedMessage();
-                // fromMe = true berarti pesan yang direply adalah pesan bot sendiri
-                if (quotedMsg.fromMe) {
-                    isReplyToBot = true;
-                }
-            }
-
-            // 3. Logic Pengecualian (Opsional)
-            // Biarkan lewat kalau pesan diawali "!menu" atau "p" (tanpa tag)
-            const body = msg.body.toLowerCase();
-            const isForceCommand = body.startsWith('!menu') || body === 'p';
-
-            // 4. FINAL CHECK
-            // Jika Grup + Bukan Tag + Bukan Reply + Bukan Command Khusus -> STOP
-            if (!isTagged && !isReplyToBot && !isForceCommand) {
-                // console.log("Diabaikan: Tidak ditag di grup."); 
-                return; 
-            }
-        }
-        // ==========================================
-
-        // Lanjut proses pesan
+        // LANGSUNG LEMPAR KE HANDLER.JS!
+        // Segala macam filter tag, reply, dan perintah diurus di dalam handler.
         await handleMessage(msg, client);
 
     } catch (err) {
-        console.error('Error on message:', err);
+        console.error('❌ Error on message event:', err);
     }
 });
 
@@ -180,31 +144,8 @@ client.on('group_join', async (notification) => {
     }
 });
 
-// --- FUNGSI AUDIT GRUP ---
-const auditGrupIlegal = async () => {
-    console.log('🧹 [AUDIT] Memulai pemeriksaan grup...');
-    try {
-        const chats = await client.getChats();
-        const groups = chats.filter(chat => chat.isGroup);
-        console.log(`📊 Total Grup: ${groups.length}`);
 
-        for (const group of groups) {
-            const participants = group.participants.map(p => p.id.user); 
-            const adaAdmin = DAFTAR_ADMIN.some(adminNo => participants.includes(adminNo));
 
-            if (!adaAdmin) {
-                console.log(`❌ ILEGAL: "${group.name}". Keluar...`);
-                await group.sendMessage('⚠️ Tidak ada Admin Resmi di sini. Bye!');
-                await new Promise(r => setTimeout(r, 2000));
-                await group.leave();
-            } else {
-                console.log(`✅ AMAN: "${group.name}"`);
-            }
-        }
-    } catch (err) {
-        console.error('❌ Error audit:', err);
-    }
-};
 
 // --- 5. JALANKAN BOT ---
 client.initialize();

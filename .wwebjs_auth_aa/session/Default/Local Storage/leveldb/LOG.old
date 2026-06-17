@@ -1,6 +1,0 @@
-2026/02/03-22:20:31.485 4ba0 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/02/03-22:20:31.489 4ba0 Recovering log #71
-2026/02/03-22:20:31.490 4ba0 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000071.log 
-2026/02/03-22:22:32.336 261c Level-0 table #75: started
-2026/02/03-22:22:32.341 261c Level-0 table #75: 16457 bytes OK
-2026/02/03-22:22:32.343 261c Delete type=0 #71

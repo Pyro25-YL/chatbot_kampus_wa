@@ -1,44 +1,37 @@
-2026/02/04-13:40:58.037 bb8 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/02/04-13:40:58.038 bb8 Recovering log #1348
-2026/02/04-13:40:58.175 bb8 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001348.log 
-2026/02/04-13:41:06.358 bb8 Level-0 table #1367: started
-2026/02/04-13:41:06.384 bb8 Level-0 table #1367: 1308169 bytes OK
-2026/02/04-13:41:06.386 bb8 Delete type=0 #1348
-2026/02/04-13:41:06.951 84f4 Compacting 1@0 + 0@1 files
-2026/02/04-13:41:06.971 84f4 Generated table #1368@0: 21258 keys, 458715 bytes
-2026/02/04-13:41:06.973 84f4 Generated table #1369@0: 348 keys, 38545 bytes
-2026/02/04-13:41:06.974 84f4 Compacted 1@0 + 0@1 files => 497260 bytes
-2026/02/04-13:41:06.974 84f4 compacted to: files[ 0 2 12 0 0 0 0 ]
-2026/02/04-13:41:06.974 84f4 Delete type=2 #1367
-2026/02/04-13:41:07.207 bb8 Compacting 1@1 + 10@2 files
-2026/02/04-13:41:07.245 bb8 Generated table #1370@1: 24822 keys, 2155515 bytes
-2026/02/04-13:41:07.332 bb8 Generated table #1371@1: 112283 keys, 2264014 bytes
-2026/02/04-13:41:07.440 bb8 Generated table #1372@1: 111709 keys, 2262757 bytes
-2026/02/04-13:41:07.516 bb8 Generated table #1373@1: 91229 keys, 2242584 bytes
-2026/02/04-13:41:07.595 bb8 Generated table #1374@1: 76640 keys, 2364453 bytes
-2026/02/04-13:41:07.634 bb8 Generated table #1375@1: 10726 keys, 2168786 bytes
-2026/02/04-13:41:07.657 bb8 Generated table #1376@1: 2434 keys, 2152651 bytes
-2026/02/04-13:41:07.679 bb8 Generated table #1377@1: 2122 keys, 2150716 bytes
-2026/02/04-13:41:07.706 bb8 Generated table #1378@1: 9816 keys, 2158657 bytes
-2026/02/04-13:41:07.770 bb8 Generated table #1379@1: 26784 keys, 2264760 bytes
-2026/02/04-13:41:07.776 bb8 Generated table #1380@1: 3553 keys, 126880 bytes
-2026/02/04-13:41:07.777 bb8 Compacted 1@1 + 10@2 files => 22311773 bytes
-2026/02/04-13:41:07.777 bb8 compacted to: files[ 0 1 13 0 0 0 0 ]
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1352
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1353
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1354
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1355
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1356
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1357
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1358
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1359
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1360
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1361
-2026/02/04-13:41:07.778 bb8 Delete type=2 #1368
-2026/02/04-13:41:07.841 bb8 Compacting 1@1 + 2@2 files
-2026/02/04-13:41:07.886 bb8 Generated table #1381@1: 19980 keys, 1955719 bytes
-2026/02/04-13:41:07.886 bb8 Compacted 1@1 + 2@2 files => 1955719 bytes
-2026/02/04-13:41:07.887 bb8 compacted to: files[ 0 0 12 0 0 0 0 ]
-2026/02/04-13:41:07.887 bb8 Delete type=2 #1362
-2026/02/04-13:41:07.887 bb8 Delete type=2 #1364
-2026/02/04-13:41:07.887 bb8 Delete type=2 #1369
+2026/06/17-13:47:42.915 670c Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/17-13:47:42.916 670c Recovering log #549
+2026/06/17-13:47:42.940 670c Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000549.log 
+2026/06/17-13:48:38.316 3fa0 Level-0 table #572: started
+2026/06/17-13:48:38.379 3fa0 Level-0 table #572: 1479275 bytes OK
+2026/06/17-13:48:38.381 3fa0 Delete type=0 #549
+2026/06/17-13:48:42.434 3fa0 Compacting 1@0 + 0@1 files
+2026/06/17-13:48:42.471 3fa0 Generated table #573@0: 16170 keys, 412995 bytes
+2026/06/17-13:48:42.473 3fa0 Generated table #574@0: 1526 keys, 54420 bytes
+2026/06/17-13:48:42.473 3fa0 Compacted 1@0 + 0@1 files => 467415 bytes
+2026/06/17-13:48:42.474 3fa0 compacted to: files[ 0 2 20 0 0 0 0 ]
+2026/06/17-13:48:42.474 3fa0 Delete type=2 #572
+2026/06/17-13:48:46.116 3fa0 Compacting 1@1 + 10@2 files
+2026/06/17-13:48:46.225 3fa0 Generated table #575@1: 39770 keys, 2228857 bytes
+2026/06/17-13:48:46.313 3fa0 Generated table #576@1: 2895 keys, 2157207 bytes
+2026/06/17-13:48:46.399 3fa0 Generated table #577@1: 2428 keys, 2162420 bytes
+2026/06/17-13:48:46.479 3fa0 Generated table #578@1: 2507 keys, 2163021 bytes
+2026/06/17-13:48:46.559 3fa0 Generated table #579@1: 2481 keys, 2162665 bytes
+2026/06/17-13:48:46.640 3fa0 Generated table #580@1: 2455 keys, 2163089 bytes
+2026/06/17-13:48:46.724 3fa0 Generated table #581@1: 2459 keys, 2163520 bytes
+2026/06/17-13:48:46.807 3fa0 Generated table #582@1: 2422 keys, 2163096 bytes
+2026/06/17-13:48:46.902 3fa0 Generated table #583@1: 19611 keys, 2187932 bytes
+2026/06/17-13:48:47.027 3fa0 Generated table #584@1: 23208 keys, 2273711 bytes
+2026/06/17-13:48:47.074 3fa0 Generated table #585@1: 1703 keys, 170931 bytes
+2026/06/17-13:48:47.074 3fa0 Compacted 1@1 + 10@2 files => 21996449 bytes
+2026/06/17-13:48:47.074 3fa0 compacted to: files[ 0 1 21 0 0 0 0 ]
+2026/06/17-13:48:47.074 3fa0 Delete type=2 #553
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #554
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #555
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #556
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #557
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #558
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #559
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #560
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #561
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #562
+2026/06/17-13:48:47.075 3fa0 Delete type=2 #573

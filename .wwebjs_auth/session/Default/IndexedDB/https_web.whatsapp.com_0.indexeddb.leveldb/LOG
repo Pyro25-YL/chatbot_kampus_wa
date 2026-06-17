@@ -1,3 +1,19 @@
-2026/02/04-16:08:56.465 8030 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/02/04-16:08:56.466 8030 Recovering log #1366
-2026/02/04-16:08:56.484 8030 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001366.log 
+2026/06/17-13:49:12.569 1fac Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/17-13:49:12.570 1fac Recovering log #571
+2026/06/17-13:49:12.570 1fac Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000571.log 
+2026/06/17-13:49:15.503 1fac Compacting 1@1 + 6@2 files
+2026/06/17-13:49:15.671 1fac Generated table #587@1: 23175 keys, 2268474 bytes
+2026/06/17-13:49:15.815 1fac Generated table #588@1: 19945 keys, 2215428 bytes
+2026/06/17-13:49:15.948 1fac Generated table #589@1: 24853 keys, 2152499 bytes
+2026/06/17-13:49:16.143 1fac Generated table #590@1: 109021 keys, 2262633 bytes
+2026/06/17-13:49:16.329 1fac Generated table #591@1: 104291 keys, 2253386 bytes
+2026/06/17-13:49:16.461 1fac Generated table #592@1: 75499 keys, 1717959 bytes
+2026/06/17-13:49:16.461 1fac Compacted 1@1 + 6@2 files => 12870379 bytes
+2026/06/17-13:49:16.462 1fac compacted to: files[ 0 0 21 0 0 0 0 ]
+2026/06/17-13:49:16.462 1fac Delete type=2 #564
+2026/06/17-13:49:16.462 1fac Delete type=2 #565
+2026/06/17-13:49:16.462 1fac Delete type=2 #566
+2026/06/17-13:49:16.462 1fac Delete type=2 #567
+2026/06/17-13:49:16.462 1fac Delete type=2 #568
+2026/06/17-13:49:16.462 1fac Delete type=2 #569
+2026/06/17-13:49:16.462 1fac Delete type=2 #574

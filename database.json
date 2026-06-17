@@ -1,94 +1,23 @@
 {
-  "120363423199085323@g.us": {
-    "nama": "Penggusuran E2",
-    "tugas": [
-      {
-        "matkul": "Matkul Konsep Dasar Ka, Detail Nya Buat Project, Format Projecet, Tempat Offline E2 Presentasi Deadline Lusa Jam 6.00",
-        "detail": "Nya Buat Project",
-        "tempat": "Offline E2 Presentasi Deadline Lusa Jam 6.00",
-        "format": "Projecet",
-        "deadline": "Jumat, 6 Februari pukul 06.00"
-      },
-      {
-        "matkul": "Tugas Hari Ini",
-        "detail": "Via Chat",
-        "tempat": "-",
-        "format": "Rapi",
-        "deadline": "Rabu, 4 Februari pukul 23.59"
-      }
-    ],
+  "120363408526101870@g.us": {
+    "nama": "Penelitian HIDUP JOKOWI",
+    "tugas": [],
     "jadwal": [
       {
-        "matkul": "Tambang Ilegal",
-        "dosen": "Bahlul",
-        "hari": "Selasa",
-        "jam": "07.00-08.00"
-      },
-      {
-        "matkul": "Sawit,",
-        "dosen": "Imigran,",
-        "hari": "Rabu",
-        "jam": "09.00-12.00"
+        "matkul": "Nanam Sawit,",
+        "dosen": "Bahlil,",
+        "hari": "Kamis",
+        "jam": "11.55"
       }
     ],
     "jadwal_sementara": [],
-    "dosen": [],
-    "pj": []
-  },
-  "120363401837470917@g.us": {
-    "nama": "ARC 6 | POMMAT (plenger semua)",
-    "tugas": [],
-    "jadwal": []
-  },
-  "120363335580276663@g.us": {
-    "nama": "monyet pencari pisang",
-    "tugas": [],
-    "jadwal": [
+    "pj": [],
+    "dosen": [
       {
-        "matkul": "Pernikahan Rizq Dan Rasya",
-        "dosen": "Pak Bahlul",
-        "hari": "Selasa",
-        "jam": "08.00"
+        "nama": "Bahlil",
+        "matkul": "Nanam Sawit",
+        "wa": "6282258756166"
       }
     ]
-  },
-  "6282258756166@c.us": {
-    "nama": "Yoga",
-    "tugas": [],
-    "jadwal": [
-      {
-        "matkul": "Uhuy",
-        "dosen": "Benis",
-        "hari": "Ahad",
-        "jam": "00"
-      }
-    ]
-  },
-  "120363423858764921@g.us": {
-    "nama": "Catatan yoliz",
-    "tugas": [],
-    "jadwal": [
-      {
-        "matkul": "Yijak Konsul Sempro",
-        "dosen": "-",
-        "hari": "Kamis Besok",
-        "jam": "10"
-      }
-    ]
-  },
-  "120363405119398728@g.us": {
-    "nama": "GrexDa Capital",
-    "tugas": [],
-    "jadwal": []
-  },
-  "120363407074320257@g.us": {
-    "nama": "Me, watashi, aku",
-    "tugas": [],
-    "jadwal": []
-  },
-  "120363419739991094@g.us": {
-    "nama": "Pasar organ manusia",
-    "tugas": [],
-    "jadwal": []
   }
 }
