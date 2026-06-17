@@ -1,3 +1,2 @@
-2026/06/17-13:49:11.444 f40 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\BraveWallet\Brave Wallet Storage/MANIFEST-000001
-2026/06/17-13:49:11.445 f40 Recovering log #3
-2026/06/17-13:49:11.445 f40 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\BraveWallet\Brave Wallet Storage/000003.log 
+2026/06/17-16:18:31.462 7620 Creating DB H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\BraveWallet\Brave Wallet Storage since it was missing.
+2026/06/17-16:18:31.467 7620 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\BraveWallet\Brave Wallet Storage/MANIFEST-000001

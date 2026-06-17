@@ -1,3 +1,2 @@
-2026/06/17-13:47:41.766 415c Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Sync Data\LevelDB/MANIFEST-000001
-2026/06/17-13:47:41.767 415c Recovering log #3
-2026/06/17-13:47:41.767 415c Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Sync Data\LevelDB/000003.log 
+2026/06/17-16:18:06.206 503c Creating DB H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Sync Data\LevelDB since it was missing.
+2026/06/17-16:18:06.211 503c Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Sync Data\LevelDB/MANIFEST-000001

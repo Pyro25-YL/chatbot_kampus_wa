@@ -1,3 +1,2 @@
-2026/06/17-13:47:41.768 6600 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/06/17-13:47:41.769 6600 Recovering log #127
-2026/06/17-13:47:41.772 6600 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000127.log 
+2026/06/17-16:18:06.277 598c Creating DB H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
+2026/06/17-16:18:06.296 598c Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
