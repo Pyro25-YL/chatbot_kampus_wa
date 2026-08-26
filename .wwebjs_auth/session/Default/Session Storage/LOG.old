@@ -1,2 +1,3 @@
-2026/06/17-16:18:06.364 598c Creating DB H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Session Storage since it was missing.
-2026/06/17-16:18:06.398 598c Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Session Storage/MANIFEST-000001
+2026/08/26-09:09:47.675 7b50 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Session Storage/MANIFEST-000001
+2026/08/26-09:09:47.677 7b50 Recovering log #3
+2026/08/26-09:09:47.681 7b50 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Session Storage/000003.log 

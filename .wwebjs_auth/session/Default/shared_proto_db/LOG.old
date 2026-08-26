@@ -1,2 +1,3 @@
-2026/06/17-16:18:06.373 503c Creating DB H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\shared_proto_db since it was missing.
-2026/06/17-16:18:06.381 503c Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\shared_proto_db/MANIFEST-000001
+2026/08/26-09:09:45.955 649c Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\shared_proto_db/MANIFEST-000001
+2026/08/26-09:09:45.956 649c Recovering log #3
+2026/08/26-09:09:45.959 649c Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\shared_proto_db/000003.log 

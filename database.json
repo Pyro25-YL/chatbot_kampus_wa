@@ -4,10 +4,34 @@
     "tugas": [],
     "jadwal": [
       {
+        "matkul": "Agama",
+        "dosen": "Agung",
+        "hari": "Senin",
+        "jam": "17.00"
+      },
+      {
+        "matkul": "Demo",
+        "dosen": "Ucup",
+        "hari": "Selasa",
+        "jam": "11.10"
+      },
+      {
         "matkul": "Nanam Sawit,",
         "dosen": "Bahlil,",
         "hari": "Kamis",
-        "jam": "11.55"
+        "jam": "10.52"
+      },
+      {
+        "matkul": "Sawit",
+        "dosen": "Asep Cuy",
+        "hari": "Sabtu",
+        "jam": "16.08"
+      },
+      {
+        "matkul": "Sawit",
+        "dosen": "Asep Cuy",
+        "hari": "Minggu",
+        "jam": "01.14"
       }
     ],
     "jadwal_sementara": [],
@@ -16,6 +40,16 @@
       {
         "nama": "Bahlil",
         "matkul": "Nanam Sawit",
+        "wa": "6282258756166"
+      },
+      {
+        "nama": "2 Ucup",
+        "matkul": "Demo",
+        "wa": "6282258756166"
+      },
+      {
+        "nama": "Asep Cuy",
+        "matkul": "Sawit",
         "wa": "6282258756166"
       }
     ]
