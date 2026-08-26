@@ -1,6 +1,15 @@
-2026/08/26-09:09:45.853 7b50 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/08/26-09:09:45.864 7b50 Recovering log #71
-2026/08/26-09:09:45.867 7b50 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000071.log 
-2026/08/26-09:11:47.688 7fe8 Level-0 table #74: started
-2026/08/26-09:11:47.693 7fe8 Level-0 table #74: 16787 bytes OK
-2026/08/26-09:11:47.695 7fe8 Delete type=0 #71
+2026/08/27-05:03:55.722 5eb4 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/08/27-05:03:55.741 5eb4 Recovering log #76
+2026/08/27-05:03:55.747 5eb4 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000076.log 
+2026/08/27-05:04:11.012 5748 Level-0 table #80: started
+2026/08/27-05:04:11.016 5748 Level-0 table #80: 15925 bytes OK
+2026/08/27-05:04:11.017 5748 Delete type=0 #76
+2026/08/27-05:04:11.018 5748 Compacting 4@0 + 1@1 files
+2026/08/27-05:04:11.022 5748 Generated table #81@0: 383 keys, 24439 bytes
+2026/08/27-05:04:11.022 5748 Compacted 4@0 + 1@1 files => 24439 bytes
+2026/08/27-05:04:11.023 5748 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/27-05:04:11.024 5748 Delete type=2 #68
+2026/08/27-05:04:11.024 5748 Delete type=2 #70
+2026/08/27-05:04:11.024 5748 Delete type=2 #74
+2026/08/27-05:04:11.024 5748 Delete type=2 #77
+2026/08/27-05:04:11.024 5748 Delete type=2 #80
