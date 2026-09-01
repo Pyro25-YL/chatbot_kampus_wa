@@ -1,14 +1,37 @@
-2026/08/27-05:03:57.252 14d0 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/08/27-05:03:57.257 14d0 Recovering log #4255
-2026/08/27-05:03:57.272 14d0 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/004255.log 
-2026/08/27-05:04:02.818 7d00 Compacting 1@1 + 4@2 files
-2026/08/27-05:04:02.999 7d00 Generated table #4282@1: 95433 keys, 2244929 bytes
-2026/08/27-05:04:03.163 7d00 Generated table #4283@1: 87600 keys, 2238441 bytes
-2026/08/27-05:04:03.175 7d00 Generated table #4284@1: 907 keys, 195780 bytes
-2026/08/27-05:04:03.175 7d00 Compacted 1@1 + 4@2 files => 4679150 bytes
-2026/08/27-05:04:03.176 7d00 compacted to: files[ 0 0 27 0 0 0 0 ]
-2026/08/27-05:04:03.177 7d00 Delete type=2 #4251
-2026/08/27-05:04:03.177 7d00 Delete type=2 #4252
-2026/08/27-05:04:03.177 7d00 Delete type=2 #4253
-2026/08/27-05:04:03.177 7d00 Delete type=2 #4254
-2026/08/27-05:04:03.178 7d00 Delete type=2 #4259
+2026/08/27-14:39:44.955 7c34 Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/27-14:39:44.957 7c34 Recovering log #4717
+2026/08/27-14:39:44.961 7c34 Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/004717.log 
+2026/08/27-14:39:47.614 a98 Compacting 1@1 + 11@2 files
+2026/08/27-14:39:47.637 a98 Generated table #4733@1: 1845 keys, 2140414 bytes
+2026/08/27-14:39:47.731 a98 Generated table #4734@1: 24130 keys, 2256074 bytes
+2026/08/27-14:39:47.812 a98 Generated table #4735@1: 30088 keys, 2248078 bytes
+2026/08/27-14:39:47.838 a98 Generated table #4736@1: 9549 keys, 2128045 bytes
+2026/08/27-14:39:47.856 a98 Generated table #4737@1: 2123 keys, 2124800 bytes
+2026/08/27-14:39:47.873 a98 Generated table #4738@1: 1920 keys, 2116430 bytes
+2026/08/27-14:39:47.892 a98 Generated table #4739@1: 1918 keys, 2118307 bytes
+2026/08/27-14:39:47.938 a98 Generated table #4740@1: 25258 keys, 2166236 bytes
+2026/08/27-14:39:47.984 a98 Generated table #4741@1: 35864 keys, 2160388 bytes
+2026/08/27-14:39:48.070 a98 Generated table #4742@1: 95464 keys, 2246136 bytes
+2026/08/27-14:39:48.080 a98 Generated table #4743@1: 10821 keys, 256242 bytes
+2026/08/27-14:39:48.080 a98 Compacted 1@1 + 11@2 files => 21961150 bytes
+2026/08/27-14:39:48.081 a98 compacted to: files[ 0 1 26 0 0 0 0 ]
+2026/08/27-14:39:48.082 a98 Delete type=2 #4691
+2026/08/27-14:39:48.082 a98 Delete type=2 #4692
+2026/08/27-14:39:48.082 a98 Delete type=2 #4695
+2026/08/27-14:39:48.082 a98 Delete type=2 #4696
+2026/08/27-14:39:48.082 a98 Delete type=2 #4697
+2026/08/27-14:39:48.082 a98 Delete type=2 #4698
+2026/08/27-14:39:48.082 a98 Delete type=2 #4699
+2026/08/27-14:39:48.082 a98 Delete type=2 #4700
+2026/08/27-14:39:48.082 a98 Delete type=2 #4714
+2026/08/27-14:39:48.082 a98 Delete type=2 #4715
+2026/08/27-14:39:48.082 a98 Delete type=2 #4716
+2026/08/27-14:39:48.083 a98 Delete type=2 #4720
+2026/08/27-14:39:48.154 a98 Compacting 1@1 + 2@2 files
+2026/08/27-14:39:48.248 a98 Generated table #4744@1: 95946 keys, 2247041 bytes
+2026/08/27-14:39:48.278 a98 Generated table #4745@1: 34298 keys, 1174135 bytes
+2026/08/27-14:39:48.278 a98 Compacted 1@1 + 2@2 files => 3421176 bytes
+2026/08/27-14:39:48.279 a98 compacted to: files[ 0 0 26 0 0 0 0 ]
+2026/08/27-14:39:48.280 a98 Delete type=2 #4672
+2026/08/27-14:39:48.280 a98 Delete type=2 #4673
+2026/08/27-14:39:48.280 a98 Delete type=2 #4721
