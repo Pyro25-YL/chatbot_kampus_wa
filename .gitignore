@@ -1,3 +1,5 @@
 node_modules
 memory
 akademik/groups.json
+.env
+.wwebjs_auth

@@ -1,3 +1,9 @@
-2026/08/27-14:58:11.579 834c Reusing MANIFEST H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/08/27-14:58:11.587 834c Recovering log #86
-2026/08/27-14:58:11.591 834c Reusing old log H:\laragon\www\bot_kampus_wa\.wwebjs_auth\session\Default\Local Storage\leveldb/000086.log 
+2026/09/02-02:11:22.675 9413 Reusing MANIFEST /home/userai/Documents/project/chatbot_kampus_wa/.wwebjs_auth/session/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/02-02:11:22.678 9413 Recovering log #10
+2026/09/02-02:11:22.679 9413 Reusing old log /home/userai/Documents/project/chatbot_kampus_wa/.wwebjs_auth/session/Default/Local Storage/leveldb/000010.log 
+2026/09/02-03:11:33.269 9413 Level-0 table #14: started
+2026/09/02-03:11:33.273 9413 Level-0 table #14: 18352 bytes OK
+2026/09/02-03:11:33.277 9413 Delete type=0 #10
+2026/09/02-04:50:53.308 9413 Level-0 table #16: started
+2026/09/02-04:50:53.316 9413 Level-0 table #16: 16070 bytes OK
+2026/09/02-04:50:53.320 9413 Delete type=0 #13

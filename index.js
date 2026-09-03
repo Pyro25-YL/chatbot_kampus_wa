@@ -6,7 +6,7 @@ const qrcode = require('qrcode-terminal');
 const OtakAI = require('./lib/ai'); 
 const handleMessage = require('./lib/handler');
 const { startCron } = require('./lib/cron');
-const { isAdminUser, auditAllGroups, checkGroupHasAdmin } = require('./lib/admin');
+const { isAdminUser } = require('./lib/admin');
 
 // --- 1. IMPORT HANDLER REMINDER DOSEN ---
 const { handleDosenResponse } = require('./lib/reminder'); 
@@ -82,11 +82,6 @@ client.on('ready', async () => {
     console.log('✅ BOT ONLINE & PINTAR!');
     startCron(client);
     OtakAI.init(); 
-
-    // Jalankan audit seluruh grup otomatis (keluar dari grup yang tidak ada Admin resmi)
-    setTimeout(async () => {
-        await auditAllGroups(client);
-    }, 5000);
 });
 
 // --- EVENT TERIMA PESAN (DENGAN SAFE-GUARD ANTI ERROR r: r) ---
@@ -126,48 +121,9 @@ client.on('message', async (msg) => {
     }
 });
 
-// --- HELPER KELUAR GRUP DENGAN AMAN & FALLBACK STORE ---
-async function leaveGroupSafe(client, chatId) {
-    if (!chatId) return;
-    try {
-        const chat = await client.getChatById(chatId).catch(() => null);
-        if (chat && typeof chat.leave === 'function') {
-            await chat.leave();
-            console.log(`👋 Sukses keluar dari grup (${chatId}) via chat.leave()`);
-            return;
-        }
-    } catch (e) {
-        // Fallback jika model chat belum sync
-    }
-
-    try {
-        await client.pupPage.evaluate(async (gId) => {
-            const chatWid = window.Store.WidFactory.createWid(gId);
-            const chat = window.Store.Chat.get(chatWid) || await window.Store.Chat.find(chatWid);
-            if (chat && window.Store.GroupUtils) {
-                if (window.Store.GroupUtils.sendExitGroup) {
-                    await window.Store.GroupUtils.sendExitGroup(chat);
-                } else if (window.Store.GroupUtils.exitGroup) {
-                    await window.Store.GroupUtils.exitGroup(chatWid);
-                }
-            }
-        }, chatId);
-        console.log(`👋 Sukses keluar dari grup (${chatId}) via window.Store`);
-    } catch (errPup) {
-        console.error('❌ Gagal keluar grup:', errPup.message || errPup);
-    }
-}
-
-// --- EVENT GROUP JOIN (HANYA ADMIN YANG BOLEH MEMASUKKAN BOT) ---
+// --- EVENT GROUP JOIN (MENYAPA SAAT BOT MASUK GRUP) ---
 client.on('group_join', async (notification) => {
     try {
-        console.log('\n>>> 🕵️‍♂️ [GROUP JOIN] Event Diterima! <<<');
-        console.log('📦 Data Event:', {
-            chatId: notification.chatId,
-            author: notification.author,
-            recipientIds: notification.recipientIds
-        });
-
         const botIds = [
             (client.info?.wid?.user || "").split(':')[0],
             (client.info?.wid?._serialized || "").split(':')[0],
@@ -177,8 +133,6 @@ client.on('group_join', async (notification) => {
         ].filter(Boolean);
 
         const recipients = notification.recipientIds || [];
-        
-        // Cek apakah bot sendiri yang dimasukkan
         let isBotAdded = false;
         for (const rId of recipients) {
             const cleanR = rId.split('@')[0].split(':')[0];
@@ -186,64 +140,15 @@ client.on('group_join', async (notification) => {
                 isBotAdded = true;
                 break;
             }
-            const contact = await client.getContactById(rId).catch(() => null);
-            if (contact && contact.isMe) {
-                isBotAdded = true;
-                break;
-            }
         }
 
-        if (!isBotAdded) {
-            console.log(`👥 Anggota biasa yang join grup (Bukan Bot): ${recipients.join(', ')}`);
-            return;
-        }
-
-        console.log('📍 SAYA (BOT) BARU SAJA DIMASUKKAN KE DALAM GRUP!');
-
-        await new Promise(r => setTimeout(r, 1000));
-
-        let chat = null;
-        try {
-            chat = await notification.getChat();
-        } catch (e) {
-            chat = await client.getChatById(notification.chatId).catch(() => null);
-        }
-
-        let authorRaw = notification.author || "";
-        let authorNumber = "";
-
-        if (authorRaw) {
-            const authorContact = await client.getContactById(authorRaw).catch(() => null);
-            authorNumber = authorContact?.number || authorRaw.split('@')[0].split(':')[0].replace(/\D/g, '');
-        }
-
-        console.log(`👤 Pengundang Asli: ${authorNumber || '(Tidak Terdeteksi / Link Invite)'}`);
-
-        if (!authorNumber) {
-            console.log('❌ Bot masuk via link invite (Bukan manual oleh Admin). Keluar...');
+        if (isBotAdded) {
+            console.log('📍 BOT BARU SAJA DIMASUKKAN KE DALAM GRUP!');
+            await new Promise(r => setTimeout(r, 1500));
+            const chat = await notification.getChat().catch(() => null) || await client.getChatById(notification.chatId).catch(() => null);
             if (chat) {
-                await chat.sendMessage('⚠️ *AKSES DITOLAK*\n\nMaaf, bot ini hanya boleh dimasukkan secara manual oleh *Admin Resmi* (tidak via link).').catch(() => {});
+                await chat.sendMessage('👋 *Halo Semuanya!*\n\nSaya adalah asisten AI & Reminder Akademik S1 Kecerdasan Artifisial.\n\nKetik *menu* untuk melihat fitur atau ketik *set kelas <nama_kelas>* untuk menghubungkan grup ini.').catch(() => {});
             }
-            await new Promise(r => setTimeout(r, 2500));
-            await leaveGroupSafe(client, notification.chatId);
-            return;
-        }
-
-        // Cek apakah pengundang adalah admin di database PostgreSQL
-        const isAdmin = await isAdminUser(authorNumber);
-
-        if (isAdmin) {
-            console.log(`✅ AMAN: Dimasukkan oleh Admin Valid (+${authorNumber}).`);
-            if (chat) {
-                await chat.sendMessage('👋 *Halo Semuanya!*\n\nSaya adalah asisten AI & Reminder Akademik. Bot ini berhasil diaktifkan oleh Admin.\n\nKetik *menu* untuk melihat fitur yang tersedia.').catch(() => {});
-            }
-        } else {
-            console.log(`❌ DITOLAK: Dimasukkan oleh Non-Admin (+${authorNumber}). Keluar dari grup...`);
-            if (chat) {
-                await chat.sendMessage(`⛔ *AKSES DITOLAK*\n\nMaaf, nomor (+${authorNumber}) bukan Admin resmi yang terdaftar di database.\nBot akan keluar secara otomatis dalam 2 detik.`).catch(() => {});
-            }
-            await new Promise(r => setTimeout(r, 2500));
-            await leaveGroupSafe(client, notification.chatId);
         }
     } catch (err) {
         console.error('❌ ERROR GROUP_JOIN:', err.message || err);
