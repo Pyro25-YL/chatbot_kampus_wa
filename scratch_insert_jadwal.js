@@ -17,76 +17,78 @@ const classesData = [
 
 const schedulesData = [
     // === KELAS 2025A ===
-    { kelas: '2025a', hari: 'Senin', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Sistem Operasi', ruang: 'E2.01.05', dosen: 'HARMON PRAYOGI' },
-    { kelas: '2025a', hari: 'Selasa', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Desain dan Analisis Algoritma', ruang: 'E2.01.05', dosen: 'ELLY MATUL IMAH' },
-    { kelas: '2025a', hari: 'Selasa', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'E2.01.05', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
-    { kelas: '2025a', hari: 'Rabu', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'C01.04.03', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
-    { kelas: '2025a', hari: 'Rabu', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Basis Data', ruang: 'E2.01.05', dosen: 'FADHILAH QALBI ANNISA' },
-    { kelas: '2025a', hari: 'Jumat', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Basis Data', ruang: 'E2.01.05', dosen: 'FADHILAH QALBI ANNISA' },
-    { kelas: '2025a', hari: 'Kamis', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Analisis Data Multivariat', ruang: 'E2.01.05', dosen: 'IKE FITRIYANINGSIH' },
-    { kelas: '2025a', hari: 'Kamis', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Pembelajaran Mesin', ruang: 'E2.01.07', dosen: 'ELLY MATUL IMAH, LILIK ANIFAH' },
+    { kelas: '2025a', hari: 'Senin', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Sistem Operasi', ruang: 'E2.01.05', dosen: 'Harmon Prayogi, M.sc' },
+    { kelas: '2025a', hari: 'Selasa', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Desain dan Analisis Algoritma', ruang: 'E2.01.05', dosen: 'Dr. Elly Matul Imah, M.Kom.' },
+    { kelas: '2025a', hari: 'Selasa', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'E2.01.05', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
+    { kelas: '2025a', hari: 'Rabu', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'C01.04.03', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
+    { kelas: '2025a', hari: 'Rabu', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Basis Data', ruang: 'E2.01.05', dosen: 'Fadhilah Qalbi A., S.t., M.sc' },
+    { kelas: '2025a', hari: 'Jumat', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Basis Data', ruang: 'E2.01.05', dosen: 'Fadhilah Qalbi A., S.t., M.sc' },
+    { kelas: '2025a', hari: 'Kamis', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Analisis Data Multivariat', ruang: 'E2.01.05', dosen: 'Ike Fitriyaningsih, M.Si' },
+    { kelas: '2025a', hari: 'Kamis', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Pembelajaran Mesin', ruang: 'E2.01.07', dosen: 'Dr. Elly Matul Imah, M.Kom., Lilik Anifah' },
 
     // === KELAS 2025B ===
-    { kelas: '2025b', hari: 'Senin', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'E2.01.06', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
-    { kelas: '2025b', hari: 'Jumat', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'C01.04.03', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
-    { kelas: '2025b', hari: 'Senin', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Basis Data', ruang: 'E2.01.06', dosen: 'FADHILAH QALBI ANNISA' },
-    { kelas: '2025b', hari: 'Jumat', jam_mulai: '07:50:00', jam_selesai: '09:30:00', matkul: 'Basis Data', ruang: 'C01.04.03', dosen: 'FADHILAH QALBI ANNISA' },
-    { kelas: '2025b', hari: 'Selasa', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Analisis Data Multivariat', ruang: 'E2.01.06', dosen: 'IKE FITRIYANINGSIH' },
-    { kelas: '2025b', hari: 'Rabu', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Sistem Operasi', ruang: 'E2.01.07', dosen: 'HARMON PRAYOGI' },
-    { kelas: '2025b', hari: 'Rabu', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Desain dan Analisis Algoritma', ruang: 'E2.01.07', dosen: 'ELLY MATUL IMAH' },
-    { kelas: '2025b', hari: 'Kamis', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Pembelajaran Mesin', ruang: 'E2.01.07', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
+    { kelas: '2025b', hari: 'Senin', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'E2.01.06', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
+    { kelas: '2025b', hari: 'Jumat', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'C01.04.03', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
+    { kelas: '2025b', hari: 'Senin', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Basis Data', ruang: 'E2.01.06', dosen: 'Fadhilah Qalbi A., S.t., M.sc' },
+    { kelas: '2025b', hari: 'Jumat', jam_mulai: '07:50:00', jam_selesai: '09:30:00', matkul: 'Basis Data', ruang: 'C01.04.03', dosen: 'Fadhilah Qalbi A., S.t., M.sc' },
+    { kelas: '2025b', hari: 'Selasa', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Analisis Data Multivariat', ruang: 'E2.01.06', dosen: 'Ike Fitriyaningsih, M.Si' },
+    { kelas: '2025b', hari: 'Rabu', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Sistem Operasi', ruang: 'E2.01.07', dosen: 'Harmon Prayogi, M.sc' },
+    { kelas: '2025b', hari: 'Rabu', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Desain dan Analisis Algoritma', ruang: 'E2.01.07', dosen: 'Dr. Elly Matul Imah, M.Kom.' },
+    { kelas: '2025b', hari: 'Kamis', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Pembelajaran Mesin', ruang: 'E2.01.07', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
 
     // === KELAS 2025C ===
-    { kelas: '2025c', hari: 'Senin', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Pembelajaran Mesin', ruang: 'E2.01.07', dosen: 'ELLY MATUL IMAH' },
-    { kelas: '2025c', hari: 'Senin', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Analisis Data Multivariat', ruang: 'E2.01.07', dosen: 'IKE FITRIYANINGSIH' },
-    { kelas: '2025c', hari: 'Selasa', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Sistem Operasi', ruang: 'E2.01.07', dosen: 'HARMON PRAYOGI' },
-    { kelas: '2025c', hari: 'Selasa', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Basis Data', ruang: 'E2.01.06', dosen: 'FADHILAH QALBI ANNISA' },
-    { kelas: '2025c', hari: 'Jumat', jam_mulai: '09:30:00', jam_selesai: '11:10:00', matkul: 'Basis Data', ruang: 'C01.04.03', dosen: 'FADHILAH QALBI ANNISA' },
-    { kelas: '2025c', hari: 'Kamis', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Desain dan Analisis Algoritma', ruang: 'E2.01.07', dosen: 'ELLY MATUL IMAH' },
-    { kelas: '2025c', hari: 'Kamis', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'E2.01.06', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
-    { kelas: '2025c', hari: 'Rabu', jam_mulai: '09:30:00', jam_selesai: '11:10:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'C01.04.03', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
+    { kelas: '2025c', hari: 'Senin', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Pembelajaran Mesin', ruang: 'E2.01.07', dosen: 'Dr. Elly Matul Imah, M.Kom.' },
+    { kelas: '2025c', hari: 'Senin', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Analisis Data Multivariat', ruang: 'E2.01.07', dosen: 'Ike Fitriyaningsih, M.Si' },
+    { kelas: '2025c', hari: 'Selasa', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Sistem Operasi', ruang: 'E2.01.07', dosen: 'Harmon Prayogi, M.sc' },
+    { kelas: '2025c', hari: 'Selasa', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Basis Data', ruang: 'E2.01.06', dosen: 'Fadhilah Qalbi A., S.t., M.sc' },
+    { kelas: '2025c', hari: 'Jumat', jam_mulai: '09:30:00', jam_selesai: '11:10:00', matkul: 'Basis Data', ruang: 'C01.04.03', dosen: 'Fadhilah Qalbi A., S.t., M.sc' },
+    { kelas: '2025c', hari: 'Kamis', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Desain dan Analisis Algoritma', ruang: 'E2.01.07', dosen: 'Dr. Elly Matul Imah, M.Kom.' },
+    { kelas: '2025c', hari: 'Kamis', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'E2.01.06', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
+    { kelas: '2025c', hari: 'Rabu', jam_mulai: '09:30:00', jam_selesai: '11:10:00', matkul: 'Pemrograman Berorientasi Objek', ruang: 'C01.04.03', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
 
     // === KELAS 2026A ===
-    { kelas: '2026a', hari: 'Senin', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Aljabar Matriks', ruang: 'E2.01.05', dosen: 'IKE FITRIYANINGSIH' },
-    { kelas: '2026a', hari: 'Senin', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Aljabar Matriks', ruang: 'C01.04.05', dosen: 'IKE FITRIYANINGSIH' },
-    { kelas: '2026a', hari: 'Selasa', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Matematika Diskrit', ruang: 'E2.01.05', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
-    { kelas: '2026a', hari: 'Rabu', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Interaksi Manusia dan Kecerdasan Artifisial', ruang: 'E2.01.05', dosen: 'FADHILAH QALBI ANNISA' },
-    { kelas: '2026a', hari: 'Kamis', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Matematika Dasar', ruang: 'E2.01.05', dosen: "MUKHTAMILATUS SA'DIYAH" },
-    { kelas: '2026a', hari: 'Kamis', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Dasar Pemrograman', ruang: 'E2.01.05', dosen: 'HARMON PRAYOGI' },
-    { kelas: '2026a', hari: 'Kamis', jam_mulai: '07:00:00', jam_selesai: '08:40:00', matkul: 'Dasar Pemrograman', ruang: 'C01.04.03', dosen: 'HARMON PRAYOGI' },
+    { kelas: '2026a', hari: 'Senin', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Aljabar Matriks', ruang: 'E2.01.05', dosen: 'Ike Fitriyaningsih, M.Si' },
+    { kelas: '2026a', hari: 'Senin', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Aljabar Matriks', ruang: 'C01.04.05', dosen: 'Ike Fitriyaningsih, M.Si' },
+    { kelas: '2026a', hari: 'Selasa', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Matematika Diskrit', ruang: 'E2.01.05', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
+    { kelas: '2026a', hari: 'Rabu', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Interaksi Manusia dan Kecerdasan Artifisial', ruang: 'E2.01.05', dosen: 'Fadhilah Qalbi A., S.t., M.sc' },
+    { kelas: '2026a', hari: 'Kamis', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Matematika Dasar', ruang: 'E2.01.05', dosen: "Mukhtamilatus Sa'diyah" },
+    { kelas: '2026a', hari: 'Kamis', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Dasar Pemrograman', ruang: 'E2.01.05', dosen: 'Harmon Prayogi, M.sc' },
+    { kelas: '2026a', hari: 'Kamis', jam_mulai: '07:00:00', jam_selesai: '08:40:00', matkul: 'Dasar Pemrograman', ruang: 'C01.04.03', dosen: 'Harmon Prayogi, M.sc' },
 
     // === KELAS 2026B ===
-    { kelas: '2026b', hari: 'Senin', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Interaksi Manusia dan Kecerdasan Artifisial', ruang: 'E2.01.06', dosen: 'FADHILAH QALBI ANNISA' },
-    { kelas: '2026b', hari: 'Selasa', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Dasar Pemrograman', ruang: 'E2.01.07', dosen: 'HARMON PRAYOGI' },
-    { kelas: '2026b', hari: 'Jumat', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Dasar Pemrograman', ruang: 'C01.04.03', dosen: 'HARMON PRAYOGI' },
-    { kelas: '2026b', hari: 'Rabu', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Aljabar Matriks', ruang: 'E2.01.06', dosen: 'IKE FITRIYANINGSIH' },
-    { kelas: '2026b', hari: 'Kamis', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Aljabar Matriks', ruang: 'C01.04.05', dosen: 'IKE FITRIYANINGSIH' },
-    { kelas: '2026b', hari: 'Rabu', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Matematika Diskrit', ruang: 'E2.01.06', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
-    { kelas: '2026b', hari: 'Jumat', jam_mulai: '08:40:00', jam_selesai: '11:10:00', matkul: 'Matematika Dasar', ruang: 'E2.01.06', dosen: 'LIZA PUSPITA YANTI' },
+    { kelas: '2026b', hari: 'Senin', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Interaksi Manusia dan Kecerdasan Artifisial', ruang: 'E2.01.06', dosen: 'Fadhilah Qalbi A., S.t., M.sc' },
+    { kelas: '2026b', hari: 'Selasa', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Dasar Pemrograman', ruang: 'E2.01.07', dosen: 'Harmon Prayogi, M.sc' },
+    { kelas: '2026b', hari: 'Jumat', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Dasar Pemrograman', ruang: 'C01.04.03', dosen: 'Harmon Prayogi, M.sc' },
+    { kelas: '2026b', hari: 'Rabu', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Aljabar Matriks', ruang: 'E2.01.06', dosen: 'Ike Fitriyaningsih, M.Si' },
+    { kelas: '2026b', hari: 'Kamis', jam_mulai: '13:00:00', jam_selesai: '14:40:00', matkul: 'Aljabar Matriks', ruang: 'C01.04.05', dosen: 'Ike Fitriyaningsih, M.Si' },
+    { kelas: '2026b', hari: 'Rabu', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Matematika Diskrit', ruang: 'E2.01.06', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
+    { kelas: '2026b', hari: 'Jumat', jam_mulai: '08:40:00', jam_selesai: '11:10:00', matkul: 'Matematika Dasar', ruang: 'E2.01.06', dosen: 'Liza Puspita Yanti' },
 
     // === KELAS 2026C ===
-    { kelas: '2026c', hari: 'Senin', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Matematika Dasar', ruang: 'C01.04.03', dosen: 'LIZA PUSPITA YANTI' },
-    { kelas: '2026c', hari: 'Selasa', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Aljabar Matriks', ruang: 'E2.01.06', dosen: 'IKE FITRIYANINGSIH' },
-    { kelas: '2026c', hari: 'Selasa', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Aljabar Matriks', ruang: 'C01.04.03', dosen: 'IKE FITRIYANINGSIH' },
-    { kelas: '2026c', hari: 'Rabu', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Matematika Diskrit', ruang: 'E2.01.06', dosen: 'RISKYANA DEWI INTAN PUSPITASARI' },
-    { kelas: '2026c', hari: 'Rabu', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Dasar Pemrograman', ruang: 'E2.01.07', dosen: 'HARMON PRAYOGI' },
-    { kelas: '2026c', hari: 'Kamis', jam_mulai: '07:50:00', jam_selesai: '09:30:00', matkul: 'Dasar Pemrograman', ruang: 'C01.04.05', dosen: 'HARMON PRAYOGI' },
-    { kelas: '2026c', hari: 'Kamis', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Interaksi Manusia dan Kecerdasan Artifisial', ruang: 'E2.01.06', dosen: 'FADHILAH QALBI ANNISA' },
+    { kelas: '2026c', hari: 'Senin', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Matematika Dasar', ruang: 'C01.04.03', dosen: 'Liza Puspita Yanti' },
+    { kelas: '2026c', hari: 'Selasa', jam_mulai: '07:00:00', jam_selesai: '09:30:00', matkul: 'Aljabar Matriks', ruang: 'E2.01.06', dosen: 'Ike Fitriyaningsih, M.Si' },
+    { kelas: '2026c', hari: 'Selasa', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Aljabar Matriks', ruang: 'C01.04.03', dosen: 'Ike Fitriyaningsih, M.Si' },
+    { kelas: '2026c', hari: 'Rabu', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Matematika Diskrit', ruang: 'E2.01.06', dosen: 'Riskyana Dewi Intan P., M.Kom.' },
+    { kelas: '2026c', hari: 'Rabu', jam_mulai: '13:00:00', jam_selesai: '15:30:00', matkul: 'Dasar Pemrograman', ruang: 'E2.01.07', dosen: 'Harmon Prayogi, M.sc' },
+    { kelas: '2026c', hari: 'Kamis', jam_mulai: '07:50:00', jam_selesai: '09:30:00', matkul: 'Dasar Pemrograman', ruang: 'C01.04.05', dosen: 'Harmon Prayogi, M.sc' },
+    { kelas: '2026c', hari: 'Kamis', jam_mulai: '09:30:00', jam_selesai: '12:00:00', matkul: 'Interaksi Manusia dan Kecerdasan Artifisial', ruang: 'E2.01.06', dosen: 'Fadhilah Qalbi A., S.t., M.sc' },
 
     // === MKU / MKK KELAS KHUSUS ===
-    { kelas: 'ai137', hari: 'Senin', jam_mulai: '16:20:00', jam_selesai: '18:00:00', matkul: 'Agama Islam', ruang: 'VIRTUAL', dosen: 'AGUNG ARI SUBAGIO' },
-    { kelas: 'bg093', hari: 'Selasa', jam_mulai: '14:40:00', jam_selesai: '16:10:00', matkul: 'Bahasa Inggris', ruang: 'VIRTUAL', dosen: 'MUKHAYYAROTIN NISWATI RODLIYATUL JAUHARIYAH' },
-    { kelas: 'bi060', hari: 'Rabu', jam_mulai: '14:40:00', jam_selesai: '16:10:00', matkul: 'Bahasa Indonesia', ruang: 'VIRTUAL', dosen: 'HENDRATNO' },
-    { kelas: 'hn001', hari: 'Jumat', jam_mulai: '11:10:00', jam_selesai: '13:00:00', matkul: 'Agama Hindu', ruang: 'VIRTUAL', dosen: 'I NENGAH MARIASA' },
-    { kelas: 'pc023', hari: 'Senin', jam_mulai: '07:00:00', jam_selesai: '08:40:00', matkul: 'Pancasila', ruang: 'VIRTUAL', dosen: 'SILVI NUR AFIFAH' },
-    { kelas: 'pr007', hari: 'Jumat', jam_mulai: '11:10:00', jam_selesai: '13:00:00', matkul: 'Agama Protestan', ruang: 'VIRTUAL', dosen: 'MEYLIA ELIZABETH R' },
+    { kelas: 'ai137', hari: 'Senin', jam_mulai: '16:20:00', jam_selesai: '18:00:00', matkul: 'Agama Islam', ruang: 'VIRTUAL', dosen: 'Agung Ari Subagio' },
+    { kelas: 'bg093', hari: 'Selasa', jam_mulai: '14:40:00', jam_selesai: '16:10:00', matkul: 'Bahasa Inggris', ruang: 'VIRTUAL', dosen: 'Mukhayyarotin Niswati Rodliyatul Jauhariyah' },
+    { kelas: 'bi060', hari: 'Rabu', jam_mulai: '14:40:00', jam_selesai: '16:10:00', matkul: 'Bahasa Indonesia', ruang: 'VIRTUAL', dosen: 'Hendratno' },
+    { kelas: 'hn001', hari: 'Jumat', jam_mulai: '11:10:00', jam_selesai: '13:00:00', matkul: 'Agama Hindu', ruang: 'VIRTUAL', dosen: 'I Nengah Mariasa' },
+    { kelas: 'pc023', hari: 'Senin', jam_mulai: '07:00:00', jam_selesai: '08:40:00', matkul: 'Pancasila', ruang: 'VIRTUAL', dosen: 'Silvi Nur Afifah' },
+    { kelas: 'pr007', hari: 'Jumat', jam_mulai: '11:10:00', jam_selesai: '13:00:00', matkul: 'Agama Protestan', ruang: 'VIRTUAL', dosen: 'Meylia Elizabeth R' },
 ];
 
 async function run() {
     try {
         console.log('🚀 Memulai proses sinkronisasi dan import jadwal...');
 
-        // 1. Pastikan semua kelas ada di database
+        // 1. Pastikan semua kelas ada di database & angkatan terisi
+        await pool.query("UPDATE kelas SET angkatan = '2025' WHERE LOWER(nama_kelas) IN ('2025a', '2025b', '2025c') AND angkatan IS NULL");
+
         const kelasMap = new Map();
         const resExistingKelas = await pool.query('SELECT id, nama_kelas FROM kelas');
         resExistingKelas.rows.forEach(k => {
@@ -105,7 +107,7 @@ async function run() {
             }
         }
 
-        // 2. Masukkan jadwal ke tabel jadwal
+        // 2. Masukkan jadwal ke tabel jadwal sesuai format pgAdmin
         let inserted = 0;
         let updated = 0;
 
@@ -118,15 +120,15 @@ async function run() {
 
             // Cek apakah jadwal yang sama persis sudah ada
             const check = await pool.query(`
-                SELECT id_jadwal FROM jadwal
+                SELECT id_jadwal, toleransi_keterlambatan FROM jadwal
                 WHERE kelas_id = $1 AND hari = $2 AND jam_mulai = $3 AND matkul = $4
             `, [kelasId, s.hari, s.jam_mulai, s.matkul]);
 
             if (check.rows.length > 0) {
-                // Update detail ruangan dan dosen
+                // Pertahankan toleransi_keterlambatan jika sudah diset khusus (seperti 30 menit), perbarui ruangan & dosen
                 await pool.query(`
                     UPDATE jadwal 
-                    SET jam_selesai = $1, toleransi_keterlambatan = 15, ruangan = $2, dosen = $3
+                    SET jam_selesai = $1, ruangan = $2, dosen = $3
                     WHERE id_jadwal = $4
                 `, [s.jam_selesai, s.ruang, s.dosen, check.rows[0].id_jadwal]);
                 updated++;
