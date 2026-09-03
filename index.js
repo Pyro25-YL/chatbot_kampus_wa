@@ -1,3 +1,4 @@
+process.env.TZ = 'Asia/Jakarta';
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
