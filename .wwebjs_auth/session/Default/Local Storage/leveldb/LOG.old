@@ -1,6 +1,0 @@
-2026/09/02-02:01:23.374 84ef Reusing MANIFEST /home/userai/Documents/project/chatbot_kampus_wa/.wwebjs_auth/session/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/02-02:01:23.379 84ef Recovering log #7
-2026/09/02-02:01:23.380 84ef Reusing old log /home/userai/Documents/project/chatbot_kampus_wa/.wwebjs_auth/session/Default/Local Storage/leveldb/000007.log 
-2026/09/02-02:02:23.382 84f1 Level-0 table #11: started
-2026/09/02-02:02:23.386 84f1 Level-0 table #11: 18710 bytes OK
-2026/09/02-02:02:23.390 84f1 Delete type=0 #7
