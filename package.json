@@ -20,10 +20,13 @@
     "node-nlp": "^5.0.0-alpha.5",
     "openai": "^4.104.0",
     "pg": "^8.23.0",
-    "puppeteer": "^24.35.0",
+    "puppeteer": "^25.11.0",
     "puppeteer-core": "^24.35.0",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#main",
     "xlsx": "^0.18.5"
+  },
+  "allowScripts": {
+    "puppeteer@24.43.1": true
   }
 }

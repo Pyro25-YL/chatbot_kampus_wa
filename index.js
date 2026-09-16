@@ -4,25 +4,25 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 const qrcode = require('qrcode-terminal');
-const OtakAI = require('./lib/ai'); 
+const OtakAI = require('./lib/ai');
 const handleMessage = require('./lib/handler');
 const { startCron } = require('./lib/cron');
 const { isAdminUser } = require('./lib/admin');
 
 // --- 1. IMPORT HANDLER REMINDER DOSEN ---
-const { handleDosenResponse } = require('./lib/reminder'); 
+const { handleDosenResponse } = require('./lib/reminder');
 
 // --- 2. RESOLVER PATH BROWSER (KHUSUS GOOGLE CHROME) ---
 function resolveBrowserPath() {
     const candidates = [
-        process.env.CHROME_PATH, 
-        'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 
-        'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', 
-        process.env.LOCALAPPDATA 
-            ? path.join(process.env.LOCALAPPDATA, 'Google\\Chrome\\Application\\chrome.exe') 
+        process.env.CHROME_PATH,
+        'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+        'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+        process.env.LOCALAPPDATA
+            ? path.join(process.env.LOCALAPPDATA, 'Google\\Chrome\\Application\\chrome.exe')
             : null,
-        '/usr/bin/google-chrome', 
-        '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' 
+        '/usr/bin/google-chrome',
+        '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
     ].filter(Boolean);
 
     for (const p of candidates) {
@@ -44,18 +44,19 @@ const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
         executablePath: browserPath,
-        headless: false, 
+        headless: false,
         args: [
-            '--no-sandbox', 
-            '--disable-setuid-sandbox', 
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
             '--disable-dev-shm-usage',
-            '--disable-accelerated-2d-canvas', 
-            '--no-first-run', 
+            '--disable-accelerated-2d-canvas',
+            '--no-first-run',
             '--no-zygote',
             '--disable-gpu'
         ],
-        timeout: 60000, 
-    }
+        timeout: 60000,
+    },
+
 });
 
 // --- 4. FIX CRASH WA WEB ---
@@ -72,13 +73,33 @@ client.sendMessage = (chatId, content, options) => {
 
 client.on('qr', (qr) => {
     qrcode.generate(qr, { small: true });
-    console.log('SCAN QR CODE DI ATAS 👆');
+    console.log('SCAN QR CODE DI ATAS 👆 (Batas waktu scan ~20 detik)');
+});
+
+client.on('authenticated', () => {
+    console.log('🔑 AUTENTIKASI BERHASIL! Sedang menyinkronkan chat WhatsApp...');
+});
+
+client.on('loading_screen', (percent, message) => {
+    console.log(`⏳ LOADING SINKRONISASI: ${percent}% - ${message}`);
+});
+
+client.on('auth_failure', (msg) => {
+    console.error('❌ AUTENTIKASI GAGAL:', msg);
+});
+
+client.on('disconnected', (reason) => {
+    console.warn('⚠️ BOT TERPUTUS:', reason);
+});
+
+client.on('change_state', (state) => {
+    console.log('🔄 STATE KONEKSI:', state);
 });
 
 client.on('ready', async () => {
     console.log('✅ BOT ONLINE & PINTAR!');
     startCron(client);
-    OtakAI.init(); 
+    OtakAI.init();
 });
 
 // --- EVENT TERIMA PESAN (DENGAN SAFE-GUARD ANTI ERROR r: r) ---
@@ -90,25 +111,25 @@ client.on('message', async (msg) => {
         // Safe Fetch: Cegah Puppeteer crash jika getChat() / getContact() gagal
         const chat = await msg.getChat().catch(() => null);
         const contact = await msg.getContact().catch(() => null);
-        
+
         // Buat nilai default jika data contact/chat tidak bisa diisi
         const senderUser = contact?.id?.user || msg.from.split('@')[0];
-        const location = chat 
+        const location = chat
             ? (chat.isGroup ? 'GRUP: ' + chat.name : 'JAPRI')
             : (msg.from.endsWith('@g.us') ? 'GRUP' : 'JAPRI');
 
         // Cetak log info pesan masuk ke terminal
         console.log(`\n============== PESAN BARU ==============`);
-        console.log(`👤 Dari: ${senderUser}`); 
+        console.log(`👤 Dari: ${senderUser}`);
         console.log(`💬 Isi: ${msg.body}`);
         console.log(`📍 Lokasi: ${location}`);
         console.log(`======================================`);
 
         // 2. Cek sesi interaksi dengan dosen terlebih dahulu
         const isDosenSession = await handleDosenResponse(msg, client).catch(() => false);
-        
+
         // Jika benar nomor dosen yang sedang ditanya, stop di sini agar tidak lanjut ke command bot biasa
-        if (isDosenSession) return; 
+        if (isDosenSession) return;
 
         // 3. Teruskan ke handler utama bot
         await handleMessage(msg, client);
@@ -144,7 +165,7 @@ client.on('group_join', async (notification) => {
             await new Promise(r => setTimeout(r, 1500));
             const chat = await notification.getChat().catch(() => null) || await client.getChatById(notification.chatId).catch(() => null);
             if (chat) {
-                await chat.sendMessage('👋 *Halo Semuanya!*\n\nSaya adalah asisten AI & Reminder Akademik S1 Kecerdasan Artifisial.\n\nKetik *menu* untuk melihat fitur atau ketik *set kelas <nama_kelas>* untuk menghubungkan grup ini.').catch(() => {});
+                await chat.sendMessage('👋 *Halo Semuanya!*\n\nSaya adalah asisten AI & Reminder Akademik S1 Kecerdasan Artifisial.\n\nKetik *menu* untuk melihat fitur atau ketik *set kelas <nama_kelas>* untuk menghubungkan grup ini.').catch(() => { });
             }
         }
     } catch (err) {
